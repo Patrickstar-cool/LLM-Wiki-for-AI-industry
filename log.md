@@ -5,7 +5,10 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
-## [2026-07-15] create | Wiki 初始化
-- 领域：AI 行业发展全景
-- 创建 SCHEMA.md、index.md、log.md
-- 目录结构：raw/、entities/、concepts/、comparisons/、queries/、timelines/
+## [2026-07-15] create | 初始化种子页面
+- 创建 entities/OpenAI.md — OpenAI 公司全景
+- 创建 entities/DeepSeek.md — 深度求索公司全景
+- 创建 concepts/大语言模型.md — LLM 核心概念
+- 创建 concepts/Transformer架构.md — 底层架构解析
+- 创建 events/ChatGPT发布.md — 行业分水岭事件
+- 更新 index.md（总页数：5）

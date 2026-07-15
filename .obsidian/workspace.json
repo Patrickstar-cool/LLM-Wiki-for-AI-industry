@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98e44e9e49d807a5",
+        "id": "ee9cebbb968cedf9",
         "type": "tabs",
         "children": [
           {
-            "id": "49862a3df4fcd51e",
+            "id": "4374e28c57b1cb74",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -195,8 +195,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "64190fdb8f03b238",
+  "active": "0352c0e43db9ee36",
   "lastOpenFiles": [
+    "log.md",
+    "index.md",
+    "欢迎.md",
     "未命名.base"
   ]
 }
