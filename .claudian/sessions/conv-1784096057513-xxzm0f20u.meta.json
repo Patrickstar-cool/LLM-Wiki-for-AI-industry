@@ -1,0 +1,26 @@
+{
+  "id": "conv-1784096057513-xxzm0f20u",
+  "providerId": "claude",
+  "title": "Verify conversation functionality",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784096057522,
+  "updatedAt": 1784096066991,
+  "lastResponseAt": 1784096066991,
+  "sessionId": null,
+  "selectedModel": "claude-code/deepseek-v4-pro[1m]",
+  "providerState": {
+    "previousProviderSessionIds": [
+      "cb22dcf6-3631-4842-9283-77fc3c42dfff"
+    ]
+  },
+  "usage": {
+    "model": "deepseek-v4-pro[1m]",
+    "inputTokens": 26614,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 26614,
+    "percentage": 3
+  }
+}
