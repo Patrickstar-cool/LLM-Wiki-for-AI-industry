@@ -21,3 +21,11 @@
 - 创建 entities/Anthropic.md — Anthropic 从创立到 $9650亿估值的完整发展史
 - 创建 concepts/AI Agent时代.md — 2026 AI 七大趋势与 Agent 定义
 - 更新 index.md（总页数：7）
+
+## [2026-07-17] ingest | OpenAI GPT-5.6 发布
+- 摄入 raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md（TechCrunch，2026.07.09）
+- 摄入 raw/articles/openai-gpt-5.6-official-2026-07-09.md（OpenAI 官方博客，2026.07.09）
+- 创建 events/GPT-5.6发布.md — GPT-5.6 Sol/Terra/Luna 三变体发布，含 ultra 多 agent 模式和政府审查背景
+- 更新 entities/OpenAI.md — 补充 2026 年 GPT-5.6 里程碑、三变体策略、政府审查等
+- 更新 entities/Anthropic.md — 补充 Fable 5/Mythos 5 信息、与 GPT-5.6 竞争对比、6 月出口管制事件
+- 更新 index.md（总页数：8）

@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-17
 type: entity
 tags: [company, model-release, alignment, safety, agent]
-sources: [raw/articles/anthropic-claude-history-2026.md]
+sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md]
 confidence: high
 contested: false
 ---
@@ -46,13 +46,28 @@ OpenAI 在商业化压力下对 AI 安全问题重视不足，于 2021 年初集
 | 2024.06 | Claude 3.5 Sonnet | 性能大幅跃升，直接挑战 GPT-4o |
 | 2024.10 | Claude 3.5 Sonnet (New) + Computer Use | 首个能操作电脑的 AI agent |
 | 2025.06 | Claude 4 系列（Sonnet 4 / Opus 4） | 下一代模型 |
-| 2025-2026 | Opus 4.5 / Opus 4.6 | 持续迭代 |
+| 2025-2026 | Opus 4.5 / 4.6 / 4.8 | 持续迭代 |
 | 2026.02 | Sonnet 4.6 | "手术刀"级精准模型 |
+| 2026.06 | **Fable 5 / Mythos 5** | 迄今最强模型，引发美国政府出口管制令 |
 
 Claude 分为三条产品线：
 - **Haiku**：轻量快速（对标 GPT-4o mini）
 - **Sonnet**：平衡性能与成本（主打产品）
 - **Opus**：最强性能（对标 GPT-4/5）
+
+## Fable 5 / Mythos 5：被管控的巅峰
+
+2026 年 6 月，Anthropic 发布了迄今最强大的模型 **Fable 5**（公开版）和
+**Mythos 5**（内部最强版）。Fable 5 被广泛认为是当时原始智能最强的模型。
+
+**关键事件：**
+- 发布后仅数天，美国政府于 6 月 12 日援引出口管制令，要求 Anthropic
+  对所有用户禁用 Mythos 5 和 Fable 5
+- 此举引发行业震动——AI 模型首次因国家安全原因被强制下架
+- 2026 年 7 月，[[OpenAI]] 发布 [[GPT-5.6发布|GPT-5.6]]，在多个基准上对标 Fable 5：
+  - Coding Agent Index：GPT-5.6 Sol 得分 80，Fable 5 得分 77.2
+  - Agents' Last Exam：Sol 53.6 vs Fable 5 约 40.5
+  - 但部分测试者仍认为 Fable 5 在原始智能上更胜一筹
 
 ## 核心技术哲学
 
@@ -107,6 +122,7 @@ Channels 和 Dispatch 等功能。被广泛认为是 AI 编程工具的第一梯
 | 融资方 | Google + Amazon 双巨头 | 微软为主 |
 | 安全态度 | 保守（曾推迟发布） | 激进（快速推出） |
 | IPO | 2026 年秘密提交 | 进行中 |
+| 最新旗舰 | Fable 5（2026.06） | GPT-5.6 Sol（2026.07） |
 
 ## 争议
 
@@ -115,11 +131,12 @@ Channels 和 Dispatch 等功能。被广泛认为是 AI 编程工具的第一梯
 - **崛起速度**：从 $41 亿到 $9650 亿仅用不到 4 年——"安全派"是否也在变成"资本派"？
 - **与 Google 的关系**：Google 投资 $400 亿但 Claude 只通过 API 提供，
   未深度集成 Google 生态
+- **Fable 5 管控风波**：2026 年 6 月被美国政府强制下架，暴露前沿 AI 在国家安全与商业利益间的张力
 
 ## 关联页面
 
+- [[GPT-5.6发布]] — OpenAI 直接对标 Fable 5 的回应
 - [[OpenAI]] — 最大竞争对手与母体
 - [[DeepSeek]] — 开源挑战者
 - [[大语言模型]] — 核心技术
-- [[AI安全与对齐]] — Anthropic 的核心议题
-- [[Constitutional AI]] — 独家方法论
+- [[AI Agent时代]] — Anthropic Claude Code 的核心定位

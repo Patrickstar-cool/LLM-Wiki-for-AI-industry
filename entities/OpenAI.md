@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-17
 type: entity
 tags: [company, model-release, open-source, alignment, agent]
-sources: []
+sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md]
 confidence: high
 contested: false
 ---
@@ -13,7 +13,7 @@ contested: false
 
 OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015 年成立于旧金山。
 以"确保通用人工智能（AGI）造福全人类"为使命，经历了从非营利研究机构到
-"有限盈利"（capped-profit）公司的转型。
+"有限盈利"（capped-profit）公司的转型。2026 年估值约 8520 亿美元。
 
 ## 关键信息
 
@@ -23,6 +23,7 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
 - **CEO**：Sam Altman
 - **总部**：旧金山
 - **融资**：累计融资超 200 亿美元，最大投资方为微软（累计投入约 130 亿美元）
+- **2026 年估值**：约 8520 亿美元
 
 ## 里程碑产品
 
@@ -39,6 +40,18 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
 | 2025.02 | Deep Research | 自主多步网页研究 agent |
 | 2025.04 | GPT-4.1 | 强化代码能力，百万 token 上下文 |
 | 2025.08 | GPT-5 | 整合 o 系列推理能力，统一模型路线图 |
+| 2026.07 | **GPT-5.6** | Sol/Terra/Luna 三变体，Coding Agent Index SOTA，ultra 多 agent 模式 |
+
+## GPT-5.6：效率优先的新范式
+
+2026 年 7 月 9 日发布的 GPT-5.6 是 OpenAI 迄今最重要的模型更新之一，标志着从"更大更强"
+到"更高效更经济"的战略转向。详见 [[GPT-5.6发布]]。
+
+关键创新：
+- **三变体策略**：Sol（旗舰）、Terra（均衡）、Luna（经济），首次在命名和定价上明确区分使用场景
+- **ultra 多 agent 模式**：协调多个 agent 并行工作，从单模型推理迈向多 agent 协作
+- **Programmatic Tool Calling**：模型可编写轻量程序自主协调工具和工作流
+- **效率碾压**：Sol 在 Coding Agent Index 以不到 Fable 5 一半的 token、三分之一的价格，得分高出 2.8 分
 
 ## 组织演变
 
@@ -48,6 +61,7 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
   董事会重组
 - **2024**：Ilya Sutskever、Jan Leike 等安全派核心成员离职；公司加速商业化
 - **2025**：转向完全营利性结构，估值超 3000 亿美元
+- **2026**：GPT-5.6 发布前遭美国政府国家安全审查——AI 前沿模型首次被正式管控
 
 ## 核心争议
 
@@ -57,11 +71,13 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
    引发"ClosedAI"批评
 3. **数据版权**：训练数据的版权问题持续面临诉讼（纽约时报等）
 4. **与微软的关系**：深度绑定引发独立性质疑
+5. **政府审查常态化**：GPT-5.6 被要求延迟发布，标志着美国政府对 AI 模型从"事后监管"转向"事前审查"
 
 ## 关联页面
 
+- [[GPT-5.6发布]] — 最新模型发布事件
 - [[DeepSeek]] — 中国最具竞争力的挑战者
-- [[Anthropic]] — OpenAI 安全派离职人员创立的直接竞争对手
+- [[Anthropic]] — OpenAI 安全派离职人员创立的直接竞争对手，Fable 5 对标对象
 - [[大语言模型]] — 核心技术概念
 - [[ChatGPT发布]] — 改变行业格局的关键事件
-- [[AGI]] — OpenAI 的终极目标
+- [[AI Agent时代]] — 多 agent 架构的产业背景
