@@ -2,5 +2,9 @@
   "realclaudian",
   "omnisearch",
   "pdf-plus",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-pandoc",
+  "obsidian-pandoc-reference-list",
+  "docxer",
+  "obsidian-excel-to-markdown-table"
 ]
