@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 created: 2026-07-15
-updated: 2026-07-17
+updated: 2026-07-20
 type: entity
 tags: [company, model-release, open-source, alignment, agent]
-sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md]
+sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md]
 confidence: high
 contested: false
 ---
@@ -73,11 +73,26 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
 4. **与微软的关系**：深度绑定引发独立性质疑
 5. **政府审查常态化**：GPT-5.6 被要求延迟发布，标志着美国政府对 AI 模型从"事后监管"转向"事前审查"
 
+## Kimi K3 挑战（2026.07）
+
+2026 年 7 月 16 日，中国 [[月之暗面]] 发布 [[Kimi K3 发布|Kimi K3]]（2.8T 参数），
+在多个基准上追平甚至超越 GPT-5.6 Sol，同时价格低 40%、即将开源。^[raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md]
+这打破了"中国落后美国 6-12 个月"的假设，对 OpenAI 的定价权和估值构成直接压力。
+
+## Altman 的监管立场
+
+2026 年 7 月，Altman 在 Financial Times 发文提出 **"AI 的 IAEA（国际原子能机构）"** 模式：
+美国主导的国际论坛，以市场准入作为杠杆推动各国公司和安全标准合规。^[raw/articles/axios-ai-godfathers-regulation-2026-07-16.md]
+详见 [[美国AI监管2026]]。
+
 ## 关联页面
 
 - [[GPT-5.6发布]] — 最新模型发布事件
-- [[DeepSeek]] — 中国最具竞争力的挑战者
-- [[Anthropic]] — OpenAI 安全派离职人员创立的直接竞争对手，Fable 5 对标对象
+- [[月之暗面]] — Kimi K3 的发布方，OpenAI 在中国市场的新挑战者
+- [[Kimi K3 发布]] — 2026 年 7 月重塑竞争格局的重大事件
+- [[DeepSeek]] — 中国另一家以极致性价比震动行业的对手
+- [[Anthropic]] — 安全派对手，Fable 5 对标对象
+- [[美国AI监管2026]] — Altman 的 IAEA 提案
 - [[大语言模型]] — 核心技术概念
 - [[ChatGPT发布]] — 改变行业格局的关键事件
 - [[AI Agent时代]] — 多 agent 架构的产业背景

@@ -22,10 +22,20 @@
 - 创建 concepts/AI Agent时代.md — 2026 AI 七大趋势与 Agent 定义
 - 更新 index.md（总页数：7）
 
-## [2026-07-17] ingest | OpenAI GPT-5.6 发布
-- 摄入 raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md（TechCrunch，2026.07.09）
-- 摄入 raw/articles/openai-gpt-5.6-official-2026-07-09.md（OpenAI 官方博客，2026.07.09）
-- 创建 events/GPT-5.6发布.md — GPT-5.6 Sol/Terra/Luna 三变体发布，含 ultra 多 agent 模式和政府审查背景
-- 更新 entities/OpenAI.md — 补充 2026 年 GPT-5.6 里程碑、三变体策略、政府审查等
-- 更新 entities/Anthropic.md — 补充 Fable 5/Mythos 5 信息、与 GPT-5.6 竞争对比、6 月出口管制事件
-- 更新 index.md（总页数：8）
+## [2026-07-20] ingest | Kimi K3 发布 + 美国 AI 监管 + Google Managed Agents
+- 搜索方向：arXiv（脚本未找到，跳过）、产业新闻 (web_search × 3)、权威科技媒体
+- 检查来源：~15 个；摄入：5 个权威源；跳过：~10 个（低质盘点文、LinkedIn 摘要、视频、重复内容）
+- 摄入 raw/articles/venturebeat-kimi-k3-2026-07-16.md（VentureBeat，2026.07.16）
+- 摄入 raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md（Axios，2026.07.17）
+- 摄入 raw/articles/axios-ai-godfathers-regulation-2026-07-16.md（Axios，2026.07.16）
+- 摄入 raw/articles/google-managed-agents-gemini-2026-07-07.md（Google 官方博客，2026.07.07）
+- 摄入 raw/articles/hklaw-us-ai-policy-framework-2026-03-27.md（Holland & Knight，2026.03.27）
+- 创建 entities/月之暗面.md — Moonshot AI 从创立到 Kimi K3 的完整发展史
+- 创建 events/Kimi-K3发布.md — 2026.07.16 全球最大开源模型发布，中美 AI 竞争格局重塑
+- 创建 concepts/美国AI监管2026.md — 联邦框架 + 州级碎片化 + 前沿实验室三大监管模式
+- 更新 entities/OpenAI.md — 补充 Kimi K3 竞争 + Altman IAEA 监管提案
+- 更新 entities/Anthropic.md — 补充 Kimi K3 竞争 + 蒸馏指控 + Amodei FAA 监管提案
+- 更新 entities/DeepSeek.md — 补充 Kimi K3 竞争格局
+- 更新 concepts/AI Agent时代.md — 补充 Google Managed Agents + Kimi K3 自主芯片设计案例
+- 更新 index.md（总页数：8 → 11）
+

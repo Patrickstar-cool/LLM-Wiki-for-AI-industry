@@ -1,7 +1,7 @@
 ---
 title: DeepSeek
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-20
 type: entity
 tags: [company, model-release, open-source, china, benchmark]
 sources: []
@@ -51,9 +51,16 @@ DeepSeek（深度求索）是中国最具全球影响力的 AI 大模型公司�
 - **价格革命**：API 定价仅为 OpenAI 的 1-5%，迫使全球大模型厂商降价
 - **地缘政治**：成为中美 AI 竞争的核心象征，激发关于出口管制的全球讨论
 
+## Kimi K3 的竞争（2026.07）
+
+2026 年 7 月 16 日，[[月之暗面]] 发布 [[Kimi K3 发布|Kimi K3]]（2.8T 参数），
+以约 75% 的规模优势超越 DeepSeek V4 Pro（~1.6T），成为全球最大开源模型。^[raw/articles/venturebeat-kimi-k3-2026-07-16.md]
+Kimi K3 在多维度基准上追平甚至超越 [[OpenAI]] 和 [[Anthropic]] 的前沿闭源模型，
+这意味着中国开源 AI 生态进入了新的竞争阶段——DeepSeek 不再孤军奋战。
+
 ## 关联页面
 
+- [[月之暗面]] — 以更大规模超越 DeepSeek 的中国开源对手
+- [[Kimi K3 发布]] — 2026 年 7 月改变竞争格局的事件
 - [[OpenAI]] — 最主要的对标对象
 - [[大语言模型]] — 核心技术概念
-- [[MoE混合专家架构]] — DeepSeek 的核心技术路线
-- [[AI地缘政治]] — 芯片管制下的中美 AI 竞争格局

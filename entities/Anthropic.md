@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-07-15
-updated: 2026-07-17
+updated: 2026-07-20
 type: entity
 tags: [company, model-release, alignment, safety, agent]
-sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md]
+sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md]
 confidence: high
 contested: false
 ---
@@ -124,6 +124,20 @@ Channels 和 Dispatch 等功能。被广泛认为是 AI 编程工具的第一梯
 | IPO | 2026 年秘密提交 | 进行中 |
 | 最新旗舰 | Fable 5（2026.06） | GPT-5.6 Sol（2026.07） |
 
+## Kimi K3 竞争与蒸馏争议（2026.07）
+
+2026 年 7 月 16 日，中国 [[月之暗面]] 发布 [[Kimi K3 发布|Kimi K3]]，
+在 Frontend Code Arena、BrowseComp 等基准上超越 Fable 5，引发硅谷震动。^[raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md]
+
+Anthropic 公开指控月之暗面等中国实验室进行工业规模的"蒸馏"——利用美国前沿模型的
+数百万次交互作为训练数据。同时，中国公司通过走私网络获取受限制的 Nvidia 芯片。^[raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md]
+
+## Amodei 的监管立场
+
+2026 年 6 月，CEO Dario Amodei 提出 **"AI 的 FAA"** 模式：联邦机构从第一天起即有权
+立即阻止模型发布。这与 Hassabis（FINRA 模式）和 Altman（IAEA 模式）形成对比。^[raw/articles/axios-ai-godfathers-regulation-2026-07-16.md]
+详见 [[美国AI监管2026]]。
+
 ## 争议
 
 - **五角大楼合同**：2025 年 Claude Gov 获 $2 亿国防合同，
@@ -132,11 +146,15 @@ Channels 和 Dispatch 等功能。被广泛认为是 AI 编程工具的第一梯
 - **与 Google 的关系**：Google 投资 $400 亿但 Claude 只通过 API 提供，
   未深度集成 Google 生态
 - **Fable 5 管控风波**：2026 年 6 月被美国政府强制下架，暴露前沿 AI 在国家安全与商业利益间的张力
+- **蒸馏指控**：公开指控中国实验室利用蒸馏获取训练数据
 
 ## 关联页面
 
 - [[GPT-5.6发布]] — OpenAI 直接对标 Fable 5 的回应
+- [[月之暗面]] — Kimi K3 的发布方，被 Anthropic 指控蒸馏
+- [[Kimi K3 发布]] — 2026 年 7 月重塑竞争格局的重大事件
 - [[OpenAI]] — 最大竞争对手与母体
 - [[DeepSeek]] — 开源挑战者
+- [[美国AI监管2026]] — Amodei 的 FAA 提案
 - [[大语言模型]] — 核心技术
 - [[AI Agent时代]] — Anthropic Claude Code 的核心定位

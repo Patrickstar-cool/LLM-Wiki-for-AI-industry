@@ -1,10 +1,10 @@
 ---
 title: AI Agent 时代
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-20
 type: concept
 tags: [agent, prediction, impact, application]
-sources: [raw/articles/microsoft-ai-7-trends-2026.md]
+sources: [raw/articles/microsoft-ai-7-trends-2026.md, raw/articles/google-managed-agents-gemini-2026-07-07.md, raw/articles/venturebeat-kimi-k3-2026-07-16.md]
 confidence: medium
 contested: false
 ---
@@ -85,10 +85,38 @@ AI 正在大幅缩短研发周期。
 - **安全漏洞**：Agent 权限扩大意味着被攻击的后果更严重
 - **责任归属**：Agent 犯错时，谁负责？开发者？部署者？用户？
 
+## Google Managed Agents（2026.07）
+
+2026 年 7 月 7 日，Google DeepMind 宣布 [[Google]] Gemini API 的 Managed Agents
+四大新能力：^[raw/articles/google-managed-agents-gemini-2026-07-07.md]
+
+1. **后台执行**（Background Execution）：异步运行长时间任务，API 立即返回 ID，
+   客户端可轮询、流式获取进度或稍后重连
+2. **远程 MCP 集成**：直接连接远程 Model Context Protocol 服务器，
+   与内置沙箱工具（Google Search、代码执行）混合使用
+3. **自定义函数调用**：内置工具在服务端自动执行，自定义函数转交客户端处理业务逻辑
+4. **凭证刷新**：通过复用 `environment_id` + 新网络配置来轮换密钥，
+   保留沙箱文件系统和已安装包
+
+这意味着 Agent 正在从"同步对话"进化为"异步后台工作者"。
+
+## Kimi K3 的 Agent 突破（2026.07）
+
+[[月之暗面]] [[Kimi K3 发布|Kimi K3]] 展示了 Agent 能力的质的飞跃：^[raw/articles/venturebeat-kimi-k3-2026-07-16.md]
+
+- **48 小时自主芯片设计**：在无人工干预下完成从架构设计到验证的完整流水线，
+  产出 4mm² 100MHz 功能芯片
+- **研究周期压缩**：将计算天体物理的 I-Love-Q 关系从人类 1-2 周压缩至约 2 小时，
+  阅读验证 20+ 篇论文并实现完整数值流水线
+
+这些案例说明 Agent 正在从"单轮问答题"走向"多日自主项目执行"，
+从"生产力副驾"变为"自主技术劳动力"。
+
 ## 关联页面
 
 - [[OpenAI]] — GPT 系列 + Agent 产品（Deep Research、Operator）
 - [[Anthropic]] — Claude Code + Computer Use 是 Agent 的标杆产品
+- [[月之暗面]] — Kimi K3 展示了 Agent 能力的新高度
+- [[Kimi K3 发布]] — 含 48 小时芯片设计等 Agent 里程碑演示
 - [[DeepSeek]] — 中国 Agent 生态
 - [[ChatGPT发布]] — AI 从"问答"时代到"执行"时代的起点
-- [[AI安全与对齐]] — Agent 安全的核心理论基础
