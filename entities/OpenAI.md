@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 created: 2026-07-15
-updated: 2026-07-20
+updated: 2026-07-22
 type: entity
-tags: [company, model-release, open-source, alignment, agent]
-sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md]
+tags: [company, model-release, open-source, alignment, agent, regulation]
+sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md]
 confidence: high
 contested: false
 ---
@@ -42,7 +42,7 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
 | 2025.08 | GPT-5 | 整合 o 系列推理能力，统一模型路线图 |
 | 2026.07 | **GPT-5.6** | Sol/Terra/Luna 三变体，Coding Agent Index SOTA，ultra 多 agent 模式 |
 
-## GPT-5.6：效率优先的新范式
+## GPT-5.6：效率优先，政府审查下的发布
 
 2026 年 7 月 9 日发布的 GPT-5.6 是 OpenAI 迄今最重要的模型更新之一，标志着从"更大更强"
 到"更高效更经济"的战略转向。详见 [[GPT-5.6发布]]。
@@ -52,6 +52,14 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
 - **ultra 多 agent 模式**：协调多个 agent 并行工作，从单模型推理迈向多 agent 协作
 - **Programmatic Tool Calling**：模型可编写轻量程序自主协调工具和工作流
 - **效率碾压**：Sol 在 Coding Agent Index 以不到 Fable 5 一半的 token、三分之一的价格，得分高出 2.8 分
+
+### 政府审查
+
+GPT-5.6 发布受到特朗普政府前所未有的干预：^[raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md]
+- 特朗普 6 月签署 AI 监管行政令，建立最长 30 天事前审查框架
+- OpenAI 应政府要求限制模型的发布范围
+- 发布时间恰逢 Anthropic Fable 5 被强制下架 27 天后——政府否认与时机有关联
+- 此举标志着美国 AI 监管从"事后监管"转向"事前审查"
 
 ## 组织演变
 
@@ -71,7 +79,10 @@ OpenAI 是全球最具影响力的人工智能研究机构与产品公司，2015
    引发"ClosedAI"批评
 3. **数据版权**：训练数据的版权问题持续面临诉讼（纽约时报等）
 4. **与微软的关系**：深度绑定引发独立性质疑
-5. **政府审查常态化**：GPT-5.6 被要求延迟发布，标志着美国政府对 AI 模型从"事后监管"转向"事前审查"
+5. **政府审查常态化**：GPT-5.6 被要求延迟发布，标志着美国政府对 AI 模型从"事后监管"转向"事前审查" ^[raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md]
+6. **Apple 诉讼**：Apple 起诉 OpenAI 涉嫌窃取商业机密——发生在 GPT-5.6 发布前后
+7. **硬件野心**：首个硬件设备据报为可移动的无屏音箱；同时还发布了 $230 的 Codex 键盘
+8. **IPO 估值**：S-1 估值 $8520 亿，落后于 Anthropic 的 $9650 亿
 
 ## Kimi K3 挑战（2026.07）
 

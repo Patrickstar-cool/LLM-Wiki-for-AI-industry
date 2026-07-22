@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-07-15
-updated: 2026-07-20
+updated: 2026-07-22
 type: entity
-tags: [company, model-release, alignment, safety, agent]
-sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md]
+tags: [company, model-release, alignment, safety, agent, funding, market]
+sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-growth-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md]
 confidence: high
 contested: false
 ---
@@ -97,7 +97,9 @@ Claude Code 最初是 Anthropic 内部工程师的辅助工具，
 支持 Agent Teams（多 agent 协作）、Computer Use（操控桌面）、
 Channels 和 Dispatch 等功能。被广泛认为是 AI 编程工具的第一梯队。
 
-## 融资与估值飙升
+## 融资与 IPO
+
+### 估值飙升
 
 | 时间 | 轮次 | 估值 |
 |------|------|------|
@@ -107,9 +109,35 @@ Channels 和 Dispatch 等功能。被广泛认为是 AI 编程工具的第一梯
 | 2025 | 多轮融资 | 数千亿美元 |
 | 2026.05 | Series H（$650亿） | **9650 亿美元** |
 
+### IPO 申请（2026.06.02）
+
+Anthropic 秘密向 SEC 提交 S-1，目标最早 2026 年 10 月上市。^[raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md] 详见 [[Anthropic-IPO申请]]。
+
+关键财务：
+- Q2 2026 预计首次季度运营利润 $5.59 亿（收入 $109 亿）
+- 预计 2028 年收入 $700 亿，现金流 $170 亿
+- 收入确认方式：总额法（含云厂商分成），与 OpenAI 净额法不同
+- 基础设施承诺：Amazon 5GW + Google/Broadcom 5GW TPU + SpaceX GPU
+- 预计 2029 年前需 $800 亿云基础设施成本
+
+### 收入火箭
+
+| 时间 | 收入运行率 | 来源 |
+|------|----------|------|
+| 2024.01 | $8,700 万 | 公开报道 |
+| 2024.12 | $10 亿 | |
+| 2025.07 | $40 亿 | |
+| 2025.12 | $90 亿 | |
+| 2026.02 | $140 亿 | |
+| 2026.03 | $190 亿 | |
+| 2026.04 | $300 亿 | |
+| 2026.05 | **$470 亿** | TechCrunch ^[raw/articles/techcrunch-ai-startup-revenue-growth-2026-07-08.md] |
+
+Claude Code 贡献：6 个月达 $10 亿年化收入，2026.02 超 $25 亿。
+
 - **Amazon 投资**：累计承诺 250 亿美元
 - **Google 投资**：累计 400 亿美元
-- **2026 年客户**：8 家财富 10 强企业，1000+ 企业客户年付 $100 万以上
+- **2026 年客户**：8 家财富 10 强企业，1,000+ 企业客户年付 $100 万以上
 
 ## Anthropic vs OpenAI
 
@@ -140,16 +168,16 @@ Anthropic 公开指控月之暗面等中国实验室进行工业规模的"蒸馏
 
 ## 争议
 
-- **五角大楼合同**：2025 年 Claude Gov 获 $2 亿国防合同，
-  引发"安全 AI 用于军事"的质疑
-- **崛起速度**：从 $41 亿到 $9650 亿仅用不到 4 年——"安全派"是否也在变成"资本派"？
-- **与 Google 的关系**：Google 投资 $400 亿但 Claude 只通过 API 提供，
-  未深度集成 Google 生态
-- **Fable 5 管控风波**：2026 年 6 月被美国政府强制下架，暴露前沿 AI 在国家安全与商业利益间的张力
+- **五角大楼诉讼**：被指定为"国家安全风险"，Anthropic 起诉国防部，诉讼仍在进行 ^[raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md]
+- **Fable 5 / Mythos 5 管控风波**：2026.06 发布后 3 天被美国政府强制全球下架，后部分解禁——Stanford 专家 Alex Stamos 称"网络安全行业几乎没有人相信此举有事实依据" ^[raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md]
+- **政府审查常态化**：特朗普 6 月签署 AI 监管行政令，建立最长 30 天的事前审查框架
+- **版权诉讼和解**：法官批准 $15 亿和解金，因训练数据中使用盗版书籍
+- **收入确认争议**：总额法 vs 净额法的会计选择将影响 IPO 估值 ^[raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md]
 - **蒸馏指控**：公开指控中国实验室利用蒸馏获取训练数据
 
 ## 关联页面
 
+- [[Anthropic-IPO申请]] — 2026 年 IPO 详情
 - [[GPT-5.6发布]] — OpenAI 直接对标 Fable 5 的回应
 - [[月之暗面]] — Kimi K3 的发布方，被 Anthropic 指控蒸馏
 - [[Kimi K3 发布]] — 2026 年 7 月重塑竞争格局的重大事件

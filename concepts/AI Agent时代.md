@@ -1,10 +1,10 @@
 ---
 title: AI Agent 时代
 created: 2026-07-15
-updated: 2026-07-20
+updated: 2026-07-22
 type: concept
-tags: [agent, prediction, impact, application]
-sources: [raw/articles/microsoft-ai-7-trends-2026.md, raw/articles/google-managed-agents-gemini-2026-07-07.md, raw/articles/venturebeat-kimi-k3-2026-07-16.md]
+tags: [agent, prediction, impact, application, benchmark]
+sources: [raw/articles/microsoft-ai-7-trends-2026.md, raw/articles/google-managed-agents-gemini-2026-07-07.md, raw/articles/venturebeat-kimi-k3-2026-07-16.md, raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-agent-index-2602.17753.md, raw/articles/google-managed-agents-expansion-2026-07-07.md]
 confidence: medium
 contested: false
 ---
@@ -112,8 +112,40 @@ AI 正在大幅缩短研发周期。
 这些案例说明 Agent 正在从"单轮问答题"走向"多日自主项目执行"，
 从"生产力副驾"变为"自主技术劳动力"。
 
+## Google Managed Agents 重大更新（2026.07.07）
+
+继 7 月 7 日首次发布后，Google DeepMind 进一步扩展了 Managed Agents 的能力：^[raw/articles/google-managed-agents-expansion-2026-07-07.md]
+
+- **后台执行**成熟化：长运行任务不再需要保持 HTTP 连接，异步运行 + 轮询/重连
+- **远程 MCP 服务器集成**：安全沙箱可直接连接私有数据库和内部 API
+- **自定义函数调用**：内置工具自动执行 + 自定义函数移交客户端
+- **凭证刷新**：密钥轮换同时保留沙箱状态
+
+这些更新将 Managed Agents 从"同步对话工具"真正转变为"异步后台工作者"。
+
+## Agent 可靠性：能力≠可靠（ICML 2026）
+
+2026 年 ICML 论文《Towards a Science of AI Agent Reliability》提出了系统性框架：^[raw/papers/arxiv-agent-reliability-2602.16666.md]
+
+- 将 agent 可靠性分解为**一致性、鲁棒性、可预测性、安全性**四个维度
+- 12 项可靠性指标，独立于原始准确率
+- 评估 15 个模型后发现：**能力提升并未带来可靠性同步改善**
+- 高能力系统可能不可靠，低能力系统可能在其范围内高度可靠
+
+详见 [[AI Agent可靠性]]。
+
+## 2025 AI Agent Index（FAccT 2026）
+
+MIT/剑桥等机构的系统性研究记录了 30 个已部署 AI agent 的技术和安全特性：^[raw/papers/arxiv-ai-agent-index-2602.17753.md]
+
+- 开发者透明度差异巨大
+- 大多数开发者分享的安全和评估信息极少
+- 涵盖聊天类、浏览器类、企业类 agent
+
 ## 关联页面
 
+- [[AI Agent可靠性]] — Agent 可靠性评估框架
+- [[企业AI数据架构2026]] — Agent 对数据基础设施的要求
 - [[OpenAI]] — GPT 系列 + Agent 产品（Deep Research、Operator）
 - [[Anthropic]] — Claude Code + Computer Use 是 Agent 的标杆产品
 - [[月之暗面]] — Kimi K3 展示了 Agent 能力的新高度
