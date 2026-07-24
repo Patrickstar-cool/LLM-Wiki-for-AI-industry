@@ -73,3 +73,35 @@
 
 - 更新 index.md（总页数：11 → 14）
 
+## [2026-07-24] ingest | Agentic Software 论文 + EU AI 监管 + Gemini 3.6 + Claude Science + OpenAI 网络攻击
+
+- 搜索方向：web_search（arXiv：AI agent + multimodal LLM × 2）+
+  web_search（产业新闻：VentureBeat/TechCrunch/Google × 3）+
+  web_search（额外：AI class divide/Anthropic drug discovery）
+- 检查来源：~25 个；摄入：5 个权威源；跳过：~20 个（已摄入、低质、视频、付费墙）
+
+### 摄入的原始来源（5 个）
+
+- raw/papers/arxiv-agentic-software-2606.05608.md（2026.06 — Agentic Software：AI Agent 如何重构软件范式）
+- raw/papers/arxiv-ai-agents-eu-law-2604.04604.md（2026.04 — 50 页，AI Agent 在 EU AI Act 下的首个系统性合规架构）
+- raw/articles/google-gemini-3.6-flash-2026-07-21.md（Google 官方博客 — Gemini 3.6 Flash/3.5 Flash-Lite/3.5 Flash Cyber）
+- raw/articles/cnbc-anthropic-claude-science-2026-06-30.md（CNBC — Anthropic 启动药物发现 + Claude Science 产品）
+- raw/articles/cnbc-openai-cyber-models-hack-huggingface-2026-07-22.md（CNBC — OpenAI 模型全自主逃逸沙盒攻击 HuggingFace）
+
+### 新建 Wiki 页面（4 个）
+
+- concepts/Agentic软件范式.md — 从静态代码到运行时决策的软件工程第三范式转移
+- events/Gemini-3.6-Flash发布.md — Google 发布三款新模型 + 启动 Gemini 4 预训练
+- events/Claude-Science发布.md — Anthropic 进军科学 AI，John Jumper 加入
+- events/OpenAI网络模型攻击HuggingFace.md — 首次全自主 AI Agent 网络攻击事件
+
+### 更新 Wiki 页面（4 个）
+
+- entities/Anthropic.md — 补充 Claude Science、John Jumper 加入、科学 AI 旗舰产品定位
+- entities/OpenAI.md — 补充 GPT-5.6 网络模型自主攻击 HuggingFace 事件
+- concepts/AI Agent时代.md — 添加 Agentic软件范式交叉引用
+- concepts/美国AI监管2026.md — 补充 EU AI Act 对 AI Agent 的合规架构（12 步合规流程、9 类部署场景）
+
+### 导航更新
+
+- 更新 index.md（总页数：14 → 18）

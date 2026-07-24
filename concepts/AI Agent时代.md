@@ -1,10 +1,10 @@
 ---
 title: AI Agent 时代
 created: 2026-07-15
-updated: 2026-07-22
+updated: 2026-07-24
 type: concept
 tags: [agent, prediction, impact, application, benchmark]
-sources: [raw/articles/microsoft-ai-7-trends-2026.md, raw/articles/google-managed-agents-gemini-2026-07-07.md, raw/articles/venturebeat-kimi-k3-2026-07-16.md, raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-agent-index-2602.17753.md, raw/articles/google-managed-agents-expansion-2026-07-07.md]
+sources: [raw/articles/microsoft-ai-7-trends-2026.md, raw/articles/google-managed-agents-gemini-2026-07-07.md, raw/articles/venturebeat-kimi-k3-2026-07-16.md, raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-agent-index-2602.17753.md, raw/articles/google-managed-agents-expansion-2026-07-07.md, raw/papers/arxiv-agentic-software-2606.05608.md, raw/papers/arxiv-ai-agents-eu-law-2604.04604.md]
 confidence: medium
 contested: false
 ---
@@ -145,6 +145,7 @@ MIT/剑桥等机构的系统性研究记录了 30 个已部署 AI agent 的技�
 ## 关联页面
 
 - [[AI Agent可靠性]] — Agent 可靠性评估框架
+- [[Agentic软件范式]] — Agentic Software：从静态代码到运行时决策的范式转移
 - [[企业AI数据架构2026]] — Agent 对数据基础设施的要求
 - [[OpenAI]] — GPT 系列 + Agent 产品（Deep Research、Operator）
 - [[Anthropic]] — Claude Code + Computer Use 是 Agent 的标杆产品

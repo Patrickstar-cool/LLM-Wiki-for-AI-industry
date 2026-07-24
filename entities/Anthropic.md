@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-07-15
-updated: 2026-07-22
+updated: 2026-07-24
 type: entity
 tags: [company, model-release, alignment, safety, agent, funding, market]
-sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-growth-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md]
+sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-growth-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-anthropic-claude-science-2026-06-30.md]
 confidence: high
 contested: false
 ---
@@ -97,6 +97,22 @@ Claude Code 最初是 Anthropic 内部工程师的辅助工具，
 支持 Agent Teams（多 agent 协作）、Computer Use（操控桌面）、
 Channels 和 Dispatch 等功能。被广泛认为是 AI 编程工具的第一梯队。
 
+## Claude Science：进军科学 AI（2026.06）
+
+2026 年 6 月 30 日，Anthropic 发布 **Claude Science**——整合 60+ 科学数据库
+和计算工具的 AI 科学工作台。^[raw/articles/cnbc-anthropic-claude-science-2026-06-30.md]
+详见 [[Claude-Science发布]]。
+
+**关键动作**：
+- 定位为与 Claude Code、Claude Cowork 并列的**旗舰产品**
+- 对标 OpenAI 的 GPT-Rosalind（2026.04）
+- 同时启动**内部药物发现项目**，聚焦"被忽视"疾病
+- 支持 50 个 AI for Science 项目，每个最高 $30,000 积分
+
+**John Jumper 加入**：AlphaFold 创造者、2024 年诺贝尔化学奖得主 John Jumper
+于 2026 年 6 月 19 日（Claude Science 发布前 11 天）离开 Google DeepMind 加入 Anthropic。
+这一人才流动标志着顶级科学 AI 人才从研究实验室走向产品公司。
+
 ## 融资与 IPO
 
 ### 估值飙升
@@ -185,4 +201,5 @@ Anthropic 公开指控月之暗面等中国实验室进行工业规模的"蒸馏
 - [[DeepSeek]] — 开源挑战者
 - [[美国AI监管2026]] — Amodei 的 FAA 提案
 - [[大语言模型]] — 核心技术
+- [[Claude-Science发布]] — 2026 年 6 月科学 AI 旗舰产品发布
 - [[AI Agent时代]] — Anthropic Claude Code 的核心定位
