@@ -11,10 +11,14 @@
             "id": "86530dcd41391945",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "entities/Anthropic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anthropic"
             }
           }
         ]
@@ -175,8 +179,6 @@
   },
   "active": "86530dcd41391945",
   "lastOpenFiles": [
-    "entities/DeepSeek.md",
-    "entities/Anthropic.md",
     "MoE混合专家架构.md"
   ]
 }
