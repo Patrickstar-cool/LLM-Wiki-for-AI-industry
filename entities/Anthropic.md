@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-07-15
-updated: 2026-07-24
+updated: 2026-07-27
 type: entity
 tags: [company, model-release, alignment, safety, agent, funding, market]
-sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-growth-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-anthropic-claude-science-2026-06-30.md]
+sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-acceleration-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-anthropic-claude-science-2026-06-30.md, raw/articles/claude-sonnet-5-launch-2026-07-01.md]
 confidence: high
 contested: false
 ---
@@ -49,11 +49,22 @@ OpenAI 在商业化压力下对 AI 安全问题重视不足，于 2021 年初集
 | 2025-2026 | Opus 4.5 / 4.6 / 4.8 | 持续迭代 |
 | 2026.02 | Sonnet 4.6 | "手术刀"级精准模型 |
 | 2026.06 | **Fable 5 / Mythos 5** | 迄今最强模型，引发美国政府出口管制令 |
+| 2026.06.30 | **Claude Sonnet 5** | 最 Agentic 的 Sonnet，接近 Opus 4.8 性能，$2/$10 入门价 |
 
 Claude 分为三条产品线：
 - **Haiku**：轻量快速（对标 GPT-4o mini）
 - **Sonnet**：平衡性能与成本（主打产品）
 - **Opus**：最强性能（对标 GPT-4/5）
+
+## Claude Sonnet 5（2026.06）
+
+2026 年 6 月 30 日发布，取代 Sonnet 4.6 成为默认模型。详见 [[Claude-Sonnet-5发布]]。
+
+**核心突破**：
+- 最 Agentic 的 Sonnet：Terminal-Bench 2.1 从 59.7% → 80.4%（+20.7pp）
+- 接近 Opus 4.8：HLE（带工具）仅差 0.5pp，GDPval-AA v2 首次超越旗舰
+- 入门价 $2/$10（至 8/31），后 $3/$15，大幅降低 Agent 部署成本
+- 三个破坏性变更：自适应思考默认开启、temperature 参数移除、新 tokenizer
 
 ## Fable 5 / Mythos 5：被管控的巅峰
 
@@ -147,7 +158,9 @@ Anthropic 秘密向 SEC 提交 S-1，目标最早 2026 年 10 月上市。^[raw/
 | 2026.02 | $140 亿 | |
 | 2026.03 | $190 亿 | |
 | 2026.04 | $300 亿 | |
-| 2026.05 | **$470 亿** | TechCrunch ^[raw/articles/techcrunch-ai-startup-revenue-growth-2026-07-08.md] |
+| 2026.05 | **$470 亿** | TechCrunch ^[raw/articles/techcrunch-ai-startup-revenue-acceleration-2026-07-08.md] |
+
+收入增长加速特征：$4B（2025.07）→ $9B（2025.12）→ $30B（2026.03）→ $47B（2026.05），10 个月内增长约 12 倍。
 
 Claude Code 贡献：6 个月达 $10 亿年化收入，2026.02 超 $25 亿。
 
@@ -166,7 +179,20 @@ Claude Code 贡献：6 个月达 $10 亿年化收入，2026.02 超 $25 亿。
 | 融资方 | Google + Amazon 双巨头 | 微软为主 |
 | 安全态度 | 保守（曾推迟发布） | 激进（快速推出） |
 | IPO | 2026 年秘密提交 | 进行中 |
-| 最新旗舰 | Fable 5（2026.06） | GPT-5.6 Sol（2026.07） |
+| 最新旗舰 | Fable 5 / Sonnet 5（2026.06） | GPT-5.6 Sol（2026.07） |
+
+## 加州政府大单（2026.06.29）
+
+加州州长 Newsom 签署了美国历史上最大的州政府 AI 部署合同：所有州机构及参与的城市/县以 50% 折扣使用 Claude，含免费培训和技术支持。^[raw/articles/claude-sonnet-5-launch-2026-07-01.md]
+
+已部署场景：
+- **Poppy**：州政府员工 AI 助手（67 个部门、2,800+ 员工试点）
+- **DMV**：客户服务自动化
+- **医疗保健服务部**：Medicaid 案件处理辅助
+- **技术部 + CalOES**：网络安全扫描和代码修复（Claude Security + Claude Code）
+- **Engaged California**：公民政策参与平台
+
+这为 Anthropic IPO 提供了最大的公共部门验证案例。
 
 ## Kimi K3 竞争与蒸馏争议（2026.07）
 
@@ -202,4 +228,5 @@ Anthropic 公开指控月之暗面等中国实验室进行工业规模的"蒸馏
 - [[美国AI监管2026]] — Amodei 的 FAA 提案
 - [[大语言模型]] — 核心技术
 - [[Claude-Science发布]] — 2026 年 6 月科学 AI 旗舰产品发布
+- [[Claude-Sonnet-5发布]] — 2026 年 6 月 Sonnet 5 发布，最 Agentic 的 Sonnet
 - [[AI Agent时代]] — Anthropic Claude Code 的核心定位

@@ -105,3 +105,32 @@
 ### 导航更新
 
 - 更新 index.md（总页数：14 → 18）
+
+## [2026-07-27] ingest | Agent 安全综述 + Claude Sonnet 5 + Google Agentic Web
+
+- 搜索方向：web_search（arXiv：AI agent security + multimodal LLM × 3）+
+  web_search（产业新闻：TechCrunch/VentureBeat/Google × 3）+
+  web_search（Claude Sonnet 5 launch）
+- 检查来源：~30 个；摄入：4 个权威源；跳过：~26 个（已摄入、低质、视频、旧数据）
+
+### 摄入的原始来源（4 个）
+
+- raw/papers/arxiv-agentic-ai-attack-defense-2603.11088.md（USENIX Security 2026 — 首篇 AI Agent 安全系统性综述，128 篇论文）
+- raw/articles/google-chrome-agentic-web-io-2026.md（Google 官方博客 — I/O 2026 Agentic Web 愿景，WebMCP + Gemini in Chrome）
+- raw/articles/claude-sonnet-5-launch-2026-07-01.md（BuildFastWithAI 聚合 — Sonnet 5 发布 + 加州大单 + 五眼联盟警告）
+- raw/articles/techcrunch-ai-startup-revenue-acceleration-2026-07-08.md（TechCrunch — AI 创业公司收入加速增长数据）
+
+### 新建 Wiki 页面（3 个）
+
+- concepts/AI Agent安全攻防.md — USENIX Security 2026 首篇 AI Agent 安全综述，七维设计空间 + 纵深防御
+- concepts/Agentic-Web.md — Google I/O 2026 Agentic Web 愿景，Chrome 从浏览器进化为 Agent 平台
+- events/Claude-Sonnet-5发布.md — 2026.06.30 最 Agentic 的 Sonnet，接近 Opus 4.8，$2/$10 入门价
+
+### 更新 Wiki 页面（2 个）
+
+- entities/Anthropic.md — 补充 Sonnet 5（模型表 + 专题节）、加州政府大单、收入加速数据
+- concepts/AI Agent时代.md — 补充 Agent 安全综述、Agentic Web、Claude Sonnet 5 三个新小节
+
+### 导航更新
+
+- 更新 index.md（总页数：18 → 21）

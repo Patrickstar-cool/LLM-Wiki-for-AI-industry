@@ -1,10 +1,10 @@
 ---
 title: AI Agent 时代
 created: 2026-07-15
-updated: 2026-07-24
+updated: 2026-07-27
 type: concept
 tags: [agent, prediction, impact, application, benchmark]
-sources: [raw/articles/microsoft-ai-7-trends-2026.md, raw/articles/google-managed-agents-gemini-2026-07-07.md, raw/articles/venturebeat-kimi-k3-2026-07-16.md, raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-agent-index-2602.17753.md, raw/articles/google-managed-agents-expansion-2026-07-07.md, raw/papers/arxiv-agentic-software-2606.05608.md, raw/papers/arxiv-ai-agents-eu-law-2604.04604.md]
+sources: [raw/articles/microsoft-ai-7-trends-2026.md, raw/articles/google-managed-agents-gemini-2026-07-07.md, raw/articles/venturebeat-kimi-k3-2026-07-16.md, raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-agent-index-2602.17753.md, raw/articles/google-managed-agents-expansion-2026-07-07.md, raw/papers/arxiv-agentic-software-2606.05608.md, raw/papers/arxiv-ai-agents-eu-law-2604.04604.md, raw/papers/arxiv-agentic-ai-attack-defense-2603.11088.md, raw/articles/google-chrome-agentic-web-io-2026.md, raw/articles/claude-sonnet-5-launch-2026-07-01.md]
 confidence: medium
 contested: false
 ---
@@ -142,13 +142,42 @@ MIT/剑桥等机构的系统性研究记录了 30 个已部署 AI agent 的技�
 - 大多数开发者分享的安全和评估信息极少
 - 涵盖聊天类、浏览器类、企业类 agent
 
+## Agent 安全：新攻击面（USENIX Security 2026）
+
+UC Berkeley 等团队发布的首篇 AI Agent 安全系统性综述（128 篇论文）：^[raw/papers/arxiv-agentic-ai-attack-defense-2603.11088.md]
+
+- Agent 的混合架构（LLM + 工具 + 记忆 + 环境）创造了全新的攻击面
+- 已知真实攻击：Prompt 注入窃取代码、远程代码执行、数据窃取、银行账户访问
+- 提出七维设计空间分析框架和纵深防御体系（模型→编排→系统→监控四层）
+- 五眼联盟（2026.06.22）联合警告：AI 驱动的网络攻击"不是几年，而是几个月"
+
+详见 [[AI Agent安全攻防]]。
+
+## Agentic Web：浏览器成为 Agent 平台（Google I/O 2026）
+
+Google 在 I/O 2026 提出"Agentic Web"愿景：^[raw/articles/google-chrome-agentic-web-io-2026.md]
+
+- **WebMCP**：开放标准让网站向浏览器 Agent 暴露结构化工具
+- **Gemini in Chrome**：浏览器内置 AI，Auto Browse 自动执行任务
+- **Built-in AI**：AI 模型在浏览器本地运行，零 token 成本
+- Chrome 从"浏览器"进化为"Agent 运行平台"
+
+详见 [[Agentic-Web]]。
+
+## Claude Sonnet 5：Agent 经济学转折点（2026.06）
+
+Anthropic 发布最 Agentic 的 Sonnet 模型：接近 Opus 4.8 性能，$2/$10 入门价。^[raw/articles/claude-sonnet-5-launch-2026-07-01.md] 意味着企业可以负担规模化部署自主 Agent 工作流。详见 [[Claude-Sonnet-5发布]]。
+
 ## 关联页面
 
 - [[AI Agent可靠性]] — Agent 可靠性评估框架
+- [[AI Agent安全攻防]] — Agent 安全攻防全景（USENIX Security 2026）
+- [[Agentic-Web]] — Google I/O 2026 提出的智能代理网络愿景
 - [[Agentic软件范式]] — Agentic Software：从静态代码到运行时决策的范式转移
 - [[企业AI数据架构2026]] — Agent 对数据基础设施的要求
 - [[OpenAI]] — GPT 系列 + Agent 产品（Deep Research、Operator）
 - [[Anthropic]] — Claude Code + Computer Use 是 Agent 的标杆产品
+- [[Claude-Sonnet-5发布]] — 2026 年 6 月最 Agentic 的 Sonnet 模型
 - [[月之暗面]] — Kimi K3 展示了 Agent 能力的新高度
 - [[Kimi K3 发布]] — 含 48 小时芯片设计等 Agent 里程碑演示
 - [[DeepSeek]] — 中国 Agent 生态
