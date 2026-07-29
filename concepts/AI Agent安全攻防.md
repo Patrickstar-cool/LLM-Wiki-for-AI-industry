@@ -1,10 +1,10 @@
 ---
 title: AI Agent 安全攻防
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-07-29
 type: concept
 tags: [agent, security, alignment, risk, benchmark]
-sources: [raw/papers/arxiv-agentic-ai-attack-defense-2603.11088.md]
+sources: [raw/papers/arxiv-agentic-ai-attack-defense-2603.11088.md, raw/papers/rand-ai-agent-bio-risk-2026-06.md, raw/articles/venturebeat-agent-governance-survey-2026-07-24.md]
 confidence: high
 contested: false
 ---
@@ -89,7 +89,38 @@ UC Berkeley + UIUC + UCSB 联合团队于 2026 年 3 月发布了该领域首篇
 2. **性能-安全权衡**：安全检查增加延迟，能接受多少？
 3. **标准化基准**：目前没有公认的 Agent 安全评测标准
 4. **多 Agent 安全**：Agent 之间的交互产生新的攻击向量
-5. **形式化验证**：能否数学上证明 Agent 不会做某些事？
+- Anthropic Project Glasswing（Claude Mythos）已发现 23,019 个开源项目漏洞，验证率 90.6%
+
+## AI Agent 的生物安全风险（2026.06）
+
+RAND Corporation 于 2026 年 6 月发布报告，系统分析了**"AI 科学家"**——能够自主执行多步科研任务的 Agentic AI——在生物安全领域的能力与风险。^[raw/papers/rand-ai-agent-bio-risk-2026-06.md]
+
+### 核心问题
+AI Agent 正进入真实科研工作流，但其评估结果的意义**高度依赖**隐含的设计选择。RAND 提出五步评估框架：
+
+| 步骤 | 关键考量 |
+|------|----------|
+| **定义** | 评估到底要测量什么？生物能力还是恶意意图？ |
+| **转化** | 如何将目标转化为可量化的任务和测量工具？ |
+| **运行** | 评估在什么样的操作条件下进行？（隔离/联网、人类辅助/全自主）|
+| **评分** | 用何种标准判断"成功"？（完成任务 vs 降低门槛）|
+| **记录** | 如何负责任地沟通结果，避免过度解读或恐慌？|
+
+### 政策建议
+- 决策者应**谨慎解读**生物评估输出——同样的数据可以支持不同结论
+- 资助应投向**高杠杆**的 AI-生物学评估研究
+- 生物安全从业者应将 agentic 评估纳入对新兴 AI 系统的审查
+
+## 企业 Agent 凭证安全（2026.06）
+
+VentureBeat 对 107 名企业安全负责人的调查揭示了凭证共享的实际风险：^[raw/articles/venturebeat-agent-governance-survey-2026-07-24.md]
+
+| 指标 | 共享凭证 | 独立身份 |
+|------|----------|----------|
+| 安全事件/险情发生率 | **63.5%**（47/74）| **40.9%**（9/22）|
+| 企业占比 | 69% 允许某种程度的共享 | 仅 31% 严格执行独立身份 |
+
+**差距：22.6 个百分点**。为每个 Agent 分配独立身份是最直接有效的安全措施，但大多数企业尚未做到。
 
 ## 与 [[AI Agent可靠性]] 的关系
 

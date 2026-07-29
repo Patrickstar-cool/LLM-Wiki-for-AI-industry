@@ -1,10 +1,10 @@
 ---
 title: Agentic 软件范式
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-29
 type: concept
 tags: [agent, architecture, software-engineering, paradigm-shift]
-sources: [raw/papers/arxiv-agentic-software-2606.05608.md]
+sources: [raw/papers/arxiv-agentic-software-2606.05608.md, raw/papers/arxiv-ai-workflow-store-2605.10907.md]
 confidence: medium
 contested: false
 ---
@@ -59,3 +59,19 @@ Agentic Engineering 的实践者不是"更好的程序员"，而是：
 - [[AI Agent可靠性]] — ICML 2026 四维可靠性框架
 - [[大语言模型]] — Agent 的推理引擎基础
 - [[Transformer架构]] — LLM 的底层架构
+
+## AI Workflow Store：从"即兴发挥"到"工程化"
+
+Google + 哥伦比亚大学团队（2026.05）提出了对 Agentic 软件范式的**补充性批判**：^[raw/papers/arxiv-ai-workflow-store-2605.10907.md]
+
+当前"on-the-fly"范式的 Agent（秒/分钟内合成并执行计划）**规避了完整软件工程过程**（设计、测试、对抗性评估、阶段部署），交付的是**即兴原型**而非适合高风险场景的系统。
+
+其核心洞见："可靠性是通过严格过程实现的**工程属性**，而非任何单一组件或思维能够赋予的。"
+
+**AI Workflow Store 方案**：
+- 将经过硬化、可重用的 Agent 工作流集中存储
+- Agent 调用预构建工作流而非即兴合成工具链
+- 通过跨用户/跨时间的**复用**分摊工程化代价
+- AI 自动化可让 SE 过程比人工快几个数量级
+
+这与 [[Cognition-AI|Devin（Cognition AI）]] 的内部实践呼应：Cognition 内部 90% 代码由 Devin 自己编写——重用的极致案例。

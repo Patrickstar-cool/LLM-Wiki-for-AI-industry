@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-07-15
-updated: 2026-07-27
+updated: 2026-07-29
 type: entity
 tags: [company, model-release, alignment, safety, agent, funding, market]
-sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-acceleration-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-anthropic-claude-science-2026-06-30.md, raw/articles/claude-sonnet-5-launch-2026-07-01.md]
+sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-acceleration-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-anthropic-claude-science-2026-06-30.md, raw/articles/claude-sonnet-5-launch-2026-07-01.md, raw/articles/crn-hottest-ai-startups-2026-07.md]
 confidence: high
 contested: false
 ---
@@ -24,9 +24,11 @@ Anthropic 是全球估值最高的私营 AI 公司（2026 年 5 月估值 9650 �
 - **创始人**：Dario Amodei（CEO）、Daniela Amodei（总裁），
   以及多名因不满 OpenAI 安全方向而离开的研究员
 - **总部**：旧金山
-- **2026 年估值**：9650 亿美元（Series H，超越 OpenAI 的 8520 亿）
-- **年化收入**：470 亿美元运行率（2026 年 5 月）
-- **IPO**：2026 年 6 月已秘密提交 IPO 申请
+- **2026 年估值**：9650 亿美元（2026 年 5 月 Series H，融资 650 亿美元，全球最高估值私营公司）
+- **年化收入**：470 亿美元运行率（2026 年 5 月，已超越 OpenAI）
+- **IPO**：2026 年 6 月已秘密提交 S-1，目标 10 月上市
+- **战略收购**：Stainless（2026.05）、Coefficient Bio（2026.04）、Vecept（2026.02）、Bun（2025.12）
+- **计算扩容**：与 AWS、Broadcom、Google、SpaceX 签订计算协议
 
 ## 起源：OpenAI 出走潮
 

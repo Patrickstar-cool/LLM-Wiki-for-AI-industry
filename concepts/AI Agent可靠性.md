@@ -1,10 +1,10 @@
 ---
 title: AI Agent 可靠性
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-29
 type: concept
 tags: [agent, benchmark, safety, alignment]
-sources: [raw/papers/arxiv-agent-reliability-2602.16666.md]
+sources: [raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-workflow-store-2605.10907.md, raw/articles/venturebeat-agent-governance-survey-2026-07-24.md]
 confidence: medium
 contested: false
 ---
@@ -59,6 +59,9 @@ AI agent 正从研究原型快速过渡到执行重要任务的部署系统，�
 ## 关联页面
 
 - [[AI Agent时代]] — 2026 年 agent 产业全景
+- [[AI Agent安全攻防]] — Agent 安全攻防全景
+- [[Agentic软件范式]] — Agentic Software 范式转移
+- [[企业AI Agent治理2026]] — 企业 Agent 五大控制层评估现状
 - [[大语言模型]] — agent 的底层技术基础
 - [[Anthropic]] — Constitutional AI 与安全评估实践
 - [[美国AI监管2026]] — 可靠性评估对监管的意义

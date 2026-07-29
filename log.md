@@ -134,3 +134,37 @@
 ### 导航更新
 
 - 更新 index.md（总页数：18 → 21）
+
+## [2026-07-29] ingest | 企业 Agent 治理调查 + SymptomAI + AI 创业生态 + AI 生物安全 + Workflow Store
+
+- 搜索方向：web_search（arXiv：AI agent + multimodal × 2）+
+  web_search（产业新闻：VentureBeat/TechCrunch/Google × 3）+
+  web_search（CRN AI startups）
+- 检查来源：~25 个；摄入：5 个权威源；跳过：~20 个（已摄入、低质、视频、付费墙）
+
+### 摄入的原始来源（5 个）
+
+- raw/articles/venturebeat-agent-governance-survey-2026-07-24.md（VentureBeat Research — 573 名企业领导者，五大控制层调查）
+- raw/articles/google-symptomai-2026-07-22.md（Google Research — 13,917 人全国规模 AI 诊断研究，首次超越临床医生基线）
+- raw/articles/crn-hottest-ai-startups-2026-07.md（CRN — 2026 Q1 $3000亿风投，80%进 AI，10 家最热创业公司）
+- raw/papers/rand-ai-agent-bio-risk-2026-06.md（RAND Corporation — AI Agent 生物安全风险评估框架）
+- raw/papers/arxiv-ai-workflow-store-2605.10907.md（Google/Columbia — AI Workflow Store：从"即兴发挥"到工程化 Agent 工作流）
+
+### 新建 Wiki 页面（4 个）
+
+- concepts/企业AI Agent治理2026.md — VB 573 名企业领导者调查：五个控制层均存在治理缺口，71% 的"Agent"其实是聊天机器人
+- events/SymptomAI研究发布.md — Google 13,917 人研究，AI Agent 鉴别诊断在 >50% 案例中被医师偏好，top-5 准确率高于临床基线
+- entities/Cognition-AI.md — Cognition AI/Devin，$10亿融资估值$260亿，90%内部代码由 Devin 自写
+- entities/Helix-Digital.md — 前 AWS CEO 创立，$200亿资本，AI 基础设施新范式
+
+### 更新 Wiki 页面（5 个）
+
+- entities/Anthropic.md — 补充 Series H $650亿融资详情、$470亿年化收入、四笔收购、计算扩容协议
+- concepts/AI Agent安全攻防.md — 补充 RAND AI 生物安全评估五步框架 + VB 凭证共享风险数据（共享凭证 63.5% 事件率 vs 独立身份 40.9%）
+- concepts/AI Agent可靠性.md — 补充关联页面链接（安全攻防、软件范式、企业治理）
+- concepts/Agentic软件范式.md — 补充 AI Workflow Store 批判视角：on-the-fly 范式规避完整 SE 过程
+- concepts/AI Agent时代.md — 补充 SymptomAI 医疗里程碑 + VB 企业治理缺口数据
+
+### 导航更新
+
+- 更新 index.md（总页数：21 → 25）
