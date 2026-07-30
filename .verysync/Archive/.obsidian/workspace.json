@@ -1,54 +1,37 @@
 {
   "main": {
-    "id": "075c61bd98ef5097",
+    "id": "86967f6d5ac9f35f",
     "type": "split",
     "children": [
       {
-        "id": "ee9cebbb968cedf9",
+        "id": "8e6e698ca4fc91db",
         "type": "tabs",
         "children": [
           {
-            "id": "4374e28c57b1cb74",
+            "id": "85098188d771b3c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/Transformer架构.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Transformer架构"
-            }
-          },
-          {
-            "id": "7a43884df5ca5f27",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-07-15 19.07.33.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-15 19.07.33.excalidraw"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ce871a4b38fd73be",
+    "id": "7563c3e3810c5c7d",
     "type": "split",
     "children": [
       {
-        "id": "a9bfa4e8dc184197",
+        "id": "ee0d8eea0a3abe90",
         "type": "tabs",
         "children": [
           {
-            "id": "0352c0e43db9ee36",
+            "id": "2cad54e93bf94fef",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +44,7 @@
             }
           },
           {
-            "id": "afc62cd54c68bf8e",
+            "id": "9f174e58a8db6327",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +61,7 @@
             }
           },
           {
-            "id": "876dc1063fcc0d25",
+            "id": "b2553db50f0589a1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,18 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "870df2bbbc60ddaa",
+    "id": "ae411bc6ed6a853d",
     "type": "split",
     "children": [
       {
-        "id": "b79520aa0d4b590e",
+        "id": "ac6d822796ae33b4",
         "type": "tabs",
         "children": [
           {
-            "id": "54f09c202b7583fd",
+            "id": "60cea6f0678fd811",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -120,7 +103,7 @@
             }
           },
           {
-            "id": "9d78807704679123",
+            "id": "862096fdd3f4bfdd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -133,7 +116,7 @@
             }
           },
           {
-            "id": "cebfd785c16614b5",
+            "id": "e8009c9a392a32ff",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,7 +131,7 @@
             }
           },
           {
-            "id": "ca89c0b880f1674d",
+            "id": "7a4c16cb0b82528e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -162,7 +145,7 @@
             }
           },
           {
-            "id": "fad9d4b4f45a48fc",
+            "id": "dbbf9238af8bbed9",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -174,33 +157,12 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
-          },
-          {
-            "id": "64190fdb8f03b238",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
-            "id": "0a69df66d4a40355",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw-sidepanel",
-              "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw 侧边面板"
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -211,11 +173,11 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "audio-recorder:开始/结束录音": false,
-      "zk-prefixer:创建时间戳笔记": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
+      "bases:新建数据库": false,
       "realclaudian:Open Claudian": false,
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -224,24 +186,6 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7a43884df5ca5f27",
-  "lastOpenFiles": [
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap connector.svg",
-    "Excalidraw/Scripts/Downloaded/Mindmap connector.md",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "concepts/Transformer架构.md",
-    "Excalidraw/Drawing 2026-07-15 19.07.33.excalidraw.md",
-    "Excalidraw",
-    "未命名.md",
-    "concepts/大语言模型.md",
-    "MoE混合专家架构.md",
-    "entities/DeepSeek.md",
-    "欢迎.md",
-    "index.md",
-    "log.md",
-    "未命名.base"
-  ]
+  "active": "85098188d771b3c0",
+  "lastOpenFiles": []
 }
