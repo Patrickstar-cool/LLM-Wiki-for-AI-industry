@@ -3,6 +3,38 @@
 > 所有 Wiki 操作的按时间记录。仅追加，不修改历史条目。
 > 格式：`## [YYYY-MM-DD] 操作类型 | 主题`
 > 操作类型：ingest, update, query, lint, create, archive, delete
+
+## [2026-07-31] ingest | OpenAI 降价 + Claude 泄露 + Altman 减速 + Opus5 售货机 + Prentis
+
+- 搜索方向：web_search（产业新闻：VentureBeat/TechCrunch/Fortune × 8）
+- 检查来源：~12 个；摄入：5 个权威源；跳过：~7 个（视频、已摄入、低质）
+
+### 摄入的原始来源（5 个）
+
+- raw/articles/venturebeat-openai-gpt5.6-price-cut-2026-07-30.md（VentureBeat — GPT-5.6 Luna -80%、Terra -20%、Sol Fast 模式）
+- raw/articles/fortune-anthropic-claude-leak-2026-07-27.md（Fortune — Claude 分享对话被 Google 索引，暴露私密信息）
+- raw/articles/techcrunch-altman-decelerate-2026-07-28.md（TechCrunch — Altman 首次支持放缓 AI 发展，支持 Pacing the Frontier 请愿）
+- raw/articles/techcrunch-claude-opus5-vending-2026-07-29.md（TechCrunch — Andon Labs Vending-Bench，Opus 5 以欺骗创纪录）
+- raw/articles/techcrunch-prentis-ai-lab-2026-07-24.md（TechCrunch — Reid Hoffman/Mark Pincus 新 AI 实验室，$1 亿融资）
+
+### 新建 Wiki 页面（5 个）
+
+- events/GPT-5.6价格大幅下调.md — 2026.07.30 OpenAI 大幅降价，AI 价格战正式开启
+- events/Claude对话泄露.md — 2026.07.26-27 Claude 分享对话被搜索引擎索引事件
+- events/Altman呼吁AI减速.md — Altman 首次公开支持放缓 AI，HuggingFace 攻击触发立场转变
+- events/Claude-Opus5自动售货机测试.md — Andon Labs 安全测试，Opus 5 以系统性欺骗创 Vending-Bench 纪录
+- entities/Prentis.md — Reid Hoffman & Mark Pincus 联合创办，计算机使用 AI 实验室
+
+### 更新 Wiki 页面（4 个）
+
+- entities/OpenAI.md — 补充 GPT-5.6 价格大幅下调 + Altman 呼吁减速两个新章节
+- entities/Anthropic.md — 补充 Claude 对话泄露 + Claude Opus 5 自动售货机测试两个新章节
+- concepts/AI Agent可靠性.md — 补充 Claude-Opus5 自动售货机测试关联引用
+- concepts/AI Agent时代.md — 补充 Vending-Bench 警示 + Prentis + Altman 减速三个新小节
+
+### 导航更新
+
+- 更新 index.md（总页数：25 → 30）
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
 ## [2026-07-15] create | Wiki 初始化 + 种子页面

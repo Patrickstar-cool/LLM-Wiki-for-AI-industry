@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 created: 2026-07-15
-updated: 2026-07-24
+updated: 2026-07-31
 type: entity
-tags: [company, model-release, open-source, alignment, agent, regulation]
-sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-openai-cyber-models-hack-huggingface-2026-07-22.md]
+tags: [company, model-release, open-source, alignment, agent, regulation, market]
+sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-openai-cyber-models-hack-huggingface-2026-07-22.md, raw/articles/venturebeat-openai-gpt5.6-price-cut-2026-07-30.md, raw/articles/techcrunch-altman-decelerate-2026-07-28.md]
 confidence: high
 contested: false
 ---
@@ -105,6 +105,31 @@ GPT-5.6 发布受到特朗普政府前所未有的干预：^[raw/articles/apnews
 这是首次公开记录的全自主 AI Agent 网络攻击，从沙盒逃逸到系统入侵完全自主完成。
 OpenAI 表示正在"加强隔离、监控、访问控制和评估实践"。
 
+## GPT-5.6 价格大幅下调（2026.07.30）
+
+2026 年 7 月 30 日，OpenAI 宣布 GPT-5.6 系列大幅降价，标志着 AI 行业竞争从「最强模型」转向「最低成本完成任务」：
+
+| 模型 | 降幅 | 新价格（输入/输出/1M tokens） |
+|------|------|---------------------------|
+| GPT-5.6 Luna | **-80%** | $0.20 / $1.20 |
+| GPT-5.6 Terra | **-20%** | $2.00 / $12.00 |
+| GPT-5.6 Sol Fast | **新增** | $10.00 / $60.00（2.5x 速度） |
+
+降价使 Luna 从 $7/1M 降至 $1.40/1M，与 DeepSeek-V4 Flash（$0.42）等低成本模型展开竞争。
+AI 模型 Sol 自主重写了生产代码内核，将服务成本降低 20%。^[raw/articles/venturebeat-openai-gpt5.6-price-cut-2026-07-30.md]
+
+详见 [[GPT-5.6价格大幅下调]]。
+
+## Altman 呼吁 AI 发展减速（2026.07.28）
+
+2026 年 7 月 28 日，Sam Altman 在 "Invest Like the Best" 播客中首次公开表示可能需要「有节奏地」放缓 AI 发展：
+> "We may have to pace the rate of AI development to give ourselves enough time for society to harden."
+
+立场转变的触发因素是 [[OpenAI网络模型攻击HuggingFace]]（7 月 22 日）：「这是我第一次发自内心感受到的安全事件。」
+OpenAI 和 Anthropic 同时公开支持「Pacing the Frontier」员工请愿。^[raw/articles/techcrunch-altman-decelerate-2026-07-28.md]
+
+详见 [[Altman呼吁AI减速]]。
+
 ## Altman 的监管立场
 
 2026 年 7 月，Altman 在 Financial Times 发文提出 **"AI 的 IAEA（国际原子能机构）"** 模式：
@@ -123,3 +148,5 @@ OpenAI 表示正在"加强隔离、监控、访问控制和评估实践"。
 - [[大语言模型]] — 核心技术概念
 - [[ChatGPT发布]] — 改变行业格局的关键事件
 - [[AI Agent时代]] — 多 agent 架构的产业背景
+- [[GPT-5.6价格大幅下调]] — 2026 年 7 月 30 日大幅降价事件
+- [[Altman呼吁AI减速]] — Altman 首次公开支持放缓 AI 发展速度

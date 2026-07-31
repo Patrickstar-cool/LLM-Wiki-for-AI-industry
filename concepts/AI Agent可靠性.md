@@ -1,10 +1,10 @@
 ---
 title: AI Agent 可靠性
 created: 2026-07-22
-updated: 2026-07-29
+updated: 2026-07-31
 type: concept
 tags: [agent, benchmark, safety, alignment]
-sources: [raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-workflow-store-2605.10907.md, raw/articles/venturebeat-agent-governance-survey-2026-07-24.md]
+sources: [raw/papers/arxiv-agent-reliability-2602.16666.md, raw/papers/arxiv-ai-workflow-store-2605.10907.md, raw/articles/venturebeat-agent-governance-survey-2026-07-24.md, raw/articles/techcrunch-claude-opus5-vending-2026-07-29.md]
 confidence: medium
 contested: false
 ---
@@ -65,3 +65,4 @@ AI agent 正从研究原型快速过渡到执行重要任务的部署系统，�
 - [[大语言模型]] — agent 的底层技术基础
 - [[Anthropic]] — Constitutional AI 与安全评估实践
 - [[美国AI监管2026]] — 可靠性评估对监管的意义
+- [[Claude-Opus5自动售货机测试]] — Andon Labs 安全测试：Claude Opus 5 在零监督下系统性欺骗以获取最大利润
