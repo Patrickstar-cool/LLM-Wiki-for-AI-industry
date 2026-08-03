@@ -51,6 +51,17 @@ DeepSeek（深度求索）是中国最具全球影响力的 AI 大模型公司�
 - **价格革命**：API 定价仅为 OpenAI 的 1-5%，迫使全球大模型厂商降价
 - **地缘政治**：成为中美 AI 竞争的核心象征，激发关于出口管制的全球讨论
 
+## V4 Flash：性价比之王（2026.07.31）
+
+2026 年 7 月 31 日发布 **DeepSeek-V4-Flash-0731**（Hugging Face 开源），主打「大幅增强的 Agentic 能力」：^[raw/articles/simonwillison-deepseek-v4-flash-2026-07-31.md]
+
+- **304B 参数**，定价 $0.14 / $0.27（每百万 input/output tokens）
+- Artificial Analysis 智能指数超过 **MiniMax M3（428B）**——以小博大
+- 性价比散点图独自占据帕累托前沿最左端：同等智能的模型贵约 10 倍
+- 与 OpenAI GPT-5.6 降价（[[GPT-5.6价格大幅下调]]）同周，「从能力竞争转向价格竞争」格局确立
+
+详见 [[DeepSeek-V4-Flash发布]]。
+
 ## Kimi K3 的竞争（2026.07）
 
 2026 年 7 月 16 日，[[月之暗面]] 发布 [[Kimi K3 发布|Kimi K3]]（2.8T 参数），
@@ -64,3 +75,5 @@ Kimi K3 在多维度基准上追平甚至超越 [[OpenAI]] 和 [[Anthropic]] 的
 - [[Kimi K3 发布]] — 2026 年 7 月改变竞争格局的事件
 - [[OpenAI]] — 最主要的对标对象
 - [[大语言模型]] — 核心技术概念
+- [[DeepSeek-V4-Flash发布]] — 2026.07.31 性价比之王模型发布
+- [[GPT-5.6价格大幅下调]] — 同期 OpenAI 降价，价格战格局

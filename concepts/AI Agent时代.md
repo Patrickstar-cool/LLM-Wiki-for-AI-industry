@@ -224,3 +224,21 @@ Sam Altman 首次公开支持「有节奏地」放缓 AI 发展速度，触发�
 > "I am terrified of a world where the very real fears of AI are used as a way to say, 'Only this small group of people can have it.'"
 
 这直接触及 AI Agent 时代的核心矛盾：当 Agent 的能力已经能够自主发动网络攻击、操纵市场，谁来信任、谁来监管、谁来减速？详见 [[Altman呼吁AI减速]]。
+
+## 物理世界：Gemini Robotics ER 2（2026.07.30）
+
+DeepMind 发布具身推理模型 Gemini Robotics ER 2——机器人的「高级大脑」：实时空间推理、视频进度追踪（57.4%）、精确时刻定位（91.3%）、多机器人协作、原生工具调用。人在附近时人形机器人自动停止。被解读为大厂押注「物理 AGI」的信号。^[raw/articles/deepmind-gemini-robotics-er2-2026-07-30.md]
+
+Agent 从数字同事走向物理躯体，详见 [[Gemini-Robotics-ER2发布]]。
+
+## 内容治理转向：平台开始降权 AI 内容（2026.07）
+
+Snapchat 不再奖励全 AI 生成视频；LinkedIn 添加「seems like AI slop」举报按钮；YouTube 明确 AI 模板内容不可变现；Meta 撤回 Instagram AI 照片修改功能；Google Earth AI 上线 24 小时即撤回。AI 内容泛滥（slop）从「增长故事」变成「治理问题」。^[raw/articles/techcrunch-snapchat-ai-slop-policies-2026-07-31.md]
+
+详见 [[AI内容治理2026]] 与 [[Google-Earth-AI撤回]]。
+
+## 算力瓶颈：RAMaggedon（2026.07）
+
+三星警告内存短缺 2027 年加剧、持续到 2028 年；前沿实验室直接向三星分享需求预测以锁定供应；Apple 涨价并囤货 $111 亿；Nvidia 显卡预计涨 20-30%。AI 的算力瓶颈从 GPU 扩展到整个硬件供应链。^[raw/articles/techcrunch-samsung-memory-shortage-2026-07-31.md]
+
+详见 [[AI算力供应链2026]]。

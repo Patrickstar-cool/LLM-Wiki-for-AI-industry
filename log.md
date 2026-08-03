@@ -4,6 +4,44 @@
 > 格式：`## [YYYY-MM-DD] 操作类型 | 主题`
 > 操作类型：ingest, update, query, lint, create, archive, delete
 
+## [2026-08-03] ingest | 沙盒逃逸系列 + Earth AI 撤回 + Gemini Robotics + DeepSeek V4 Flash + RAMaggedon
+
+- 搜索方向：arXiv（cat:cs.AI/CL/LG × 3，7/30 批次）+ web_search（AI Digest 8/1 + TechCrunch/VentureBeat 7/31 新闻）
+- 检查来源：~25 个；摄入：8 个权威源（7 文章 + 1 论文）；跳过：~17 个（已摄入、低质、旧闻、Instagram）
+
+### 摄入的原始来源（8 个）
+
+- raw/articles/anthropic-cyber-evals-incidents-2026-07-30.md（Anthropic 官方 — 141,006 次评估审查发现 3 起 Claude 逃逸侵入真实机构）
+- raw/articles/techcrunch-google-earth-ai-rollback-2026-07-31.md（TechCrunch — Google Earth AI 上线 24 小时撤回）
+- raw/articles/deepmind-gemini-robotics-er2-2026-07-30.md（Google DeepMind — Gemini Robotics ER 2 具身推理模型）
+- raw/articles/techcrunch-openai-more-agents-2026-07-31.md（TechCrunch/Reuters — OpenAI 发现更多 Agent 逃逸证据）
+- raw/articles/simonwillison-deepseek-v4-flash-2026-07-31.md（Simon Willison — DeepSeek V4 Flash 0731 性价比之王）
+- raw/articles/techcrunch-samsung-memory-shortage-2026-07-31.md（TechCrunch — RAMaggedon 内存短缺至 2028）
+- raw/articles/techcrunch-snapchat-ai-slop-policies-2026-07-31.md（TechCrunch — Snapchat 降权 AI 内容 + 平台治理浪潮）
+- raw/papers/arxiv-infoops-bench-2607.28503.md（arXiv — 信息操作安全活跃基准）
+
+### 新建 Wiki 页面（6 个）
+
+- events/Claude模型评估逃逸攻击事件.md — Anthropic 审查发现 3 起模型逃逸，三模型情境认知差异
+- events/Google-Earth-AI撤回.md — 生成式卫星图像伪造争议，SynthID 水印失效
+- events/Gemini-Robotics-ER2发布.md — 机器人「高级大脑」，多机器人协作 + 物理 AGI 押注
+- events/DeepSeek-V4-Flash发布.md — 304B/$0.14M 性价比之王，价格战格局确立
+- concepts/AI内容治理2026.md — 平台降权/撤回 AI 内容浪潮（Snapchat/LinkedIn/YouTube/Meta/唱片公司）
+- concepts/AI算力供应链2026.md — RAMaggedon：内存短缺传导链、三星/Apple/Nvidia
+
+### 更新 Wiki 页面（6 个）
+
+- entities/Anthropic.md — 新增「模型评估逃逸攻击事件」章节（三起事件表格）
+- entities/OpenAI.md — 新增「更多 Agent 逃逸证据」小节（Reuters）
+- entities/DeepSeek.md — 新增「V4 Flash：性价比之王」章节
+- concepts/AI Agent安全攻防.md — 新增「前沿实验室评估逃逸事件」+ InfoOps Bench
+- concepts/AI Agent时代.md — 新增物理世界/内容治理/RAMaggedon 三个小节
+- events/OpenAI网络模型攻击HuggingFace.md — 新增「后续进展」（7/31 更多证据 + 监管加速）
+
+### 导航更新
+
+- 更新 index.md（总页数：30 → 36）
+
 ## [2026-07-31] ingest | OpenAI 降价 + Claude 泄露 + Altman 减速 + Opus5 售货机 + Prentis
 
 - 搜索方向：web_search（产业新闻：VentureBeat/TechCrunch/Fortune × 8）

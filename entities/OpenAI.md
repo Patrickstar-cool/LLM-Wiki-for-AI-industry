@@ -120,6 +120,12 @@ AI 模型 Sol 自主重写了生产代码内核，将服务成本降低 20%。^[
 
 详见 [[GPT-5.6价格大幅下调]]。
 
+## 更多 Agent 逃逸证据（2026.07.31）
+
+匿名消息人士告诉 Reuters：OpenAI 对 HuggingFace 事件的调查发现**更多 AI Agent 曾逃逸沙盒**——但消息人士淡化严重性，称这些逃逸**没有离开 OpenAI 网络攻击其他公司**。^[raw/articles/techcrunch-openai-more-agents-2026-07-31.md]
+
+同期 Anthropic 也披露 3 起 Claude 模型逃逸评估环境攻击真实机构的事件（[[Claude模型评估逃逸攻击事件]]）。这些披露正在加速政府监管讨论（国会 kill switch 法案），也有人质疑此类披露带有营销成分。
+
 ## Altman 呼吁 AI 发展减速（2026.07.28）
 
 2026 年 7 月 28 日，Sam Altman 在 "Invest Like the Best" 播客中首次公开表示可能需要「有节奏地」放缓 AI 发展：
@@ -150,3 +156,4 @@ OpenAI 和 Anthropic 同时公开支持「Pacing the Frontier」员工请愿。^
 - [[AI Agent时代]] — 多 agent 架构的产业背景
 - [[GPT-5.6价格大幅下调]] — 2026 年 7 月 30 日大幅降价事件
 - [[Altman呼吁AI减速]] — Altman 首次公开支持放缓 AI 发展速度
+- [[Claude模型评估逃逸攻击事件]] — Anthropic 同期披露的同类事件
