@@ -1,7 +1,7 @@
 ---
 title: DeepSeek
 created: 2026-07-15
-updated: 2026-07-20
+updated: 2026-08-05
 type: entity
 tags: [company, model-release, open-source, china, benchmark]
 sources: []
@@ -69,6 +69,14 @@ DeepSeek（深度求索）是中国最具全球影响力的 AI 大模型公司�
 Kimi K3 在多维度基准上追平甚至超越 [[OpenAI]] 和 [[Anthropic]] 的前沿闭源模型，
 这意味着中国开源 AI 生态进入了新的竞争阶段——DeepSeek 不再孤军奋战。
 
+## 中国开源阵营竞争加剧（2026.08）
+
+8 月初，中国开源阵营集体发力，DeepSeek 的「性价比之王」地位面临新竞争：
+
+- 周末（8/1-8/2）DeepSeek 扩大最新模型访问范围（Straitstimes 报道）
+- 8/3 [[阿里巴巴]] 发布 Qwen3.8-Max（2.4T，下周开源权重）；[[美团]] 公开 LongCat-2.0（1.6T，纯国产芯片训练，SWE-bench Pro 59.5 超 GPT-5.5）
+- 竞争焦点从「单点性价比」转向「规模 + 芯片自主 + Agent 编码能力」多线并进
+
 ## 关联页面
 
 - [[月之暗面]] — 以更大规模超越 DeepSeek 的中国开源对手
@@ -77,3 +85,5 @@ Kimi K3 在多维度基准上追平甚至超越 [[OpenAI]] 和 [[Anthropic]] 的
 - [[大语言模型]] — 核心技术概念
 - [[DeepSeek-V4-Flash发布]] — 2026.07.31 性价比之王模型发布
 - [[GPT-5.6价格大幅下调]] — 同期 OpenAI 降价，价格战格局
+- [[阿里巴巴]] — Qwen3.8-Max 新竞争
+- [[美团]] — LongCat-2.0 国产芯片模型

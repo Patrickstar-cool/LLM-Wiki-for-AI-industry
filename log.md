@@ -4,6 +4,40 @@
 > 格式：`## [YYYY-MM-DD] 操作类型 | 主题`
 > 操作类型：ingest, update, query, lint, create, archive, delete
 
+## [2026-08-05] ingest | 白宫自愿安全测试 + Qwen3.8-Max + 美团 LongCat-2.0 + Thinking Machines Inkling + EU AI Act 第 50 条
+
+- 搜索方向：web_search（产业新闻：TechCrunch/VentureBeat/Reuters/Quartz × 8）+ 补充回溯（Inkling 7/15 发布漏网补录）
+- 检查来源：~20 个；摄入：5 个权威源；跳过：~15 个（已摄入、低质、视频、付费墙、次要 startup 新闻）
+
+### 摄入的原始来源（5 个）
+
+- raw/articles/reuters-white-house-voluntary-ai-safety-2026-08-03.md（Reuters — 自愿性 AI 网络安全测试框架定稿 + 8/4 白宫会议）
+- raw/articles/quartz-qwen38-max-launch-2026-08-03.md（Quartz — 阿里 Qwen3.8-Max 2.4T 发布，下周开源权重）
+- raw/articles/venturebeat-longcat20-opensource-2026-08.md（VentureBeat — 美团 LongCat-2.0 开源，纯国产 ASIC 万亿参数）
+- raw/articles/venturebeat-thinking-machines-inkling-2026-07-15.md（VentureBeat — Thinking Machines Inkling 975B Apache 2.0）
+- raw/articles/cooley-eu-ai-act-article50-2026-08-03.md（Cooley — EU AI Act 第 50 条透明度义务生效）
+
+### 新建 Wiki 页面（7 个）
+
+- events/白宫自愿AI安全测试框架会议.md — 逃逸事件后的监管转折：自愿测试契约 + 开源模型是否纳入成焦点
+- events/Qwen3.8-Max发布.md — 阿里 2.4T 最大模型，PaperBench 93.0 超 Fable 5，16 天自主编码演示
+- events/美团LongCat-2.0开源.md — 全球首个纯国产芯片万亿参数模型，Owl Alpha 身份揭晓，SWE-bench Pro 59.5
+- events/欧盟AI法案第50条生效.md — 全球首个强制 AI 内容标记/检测法律，€1500 万罚款上限
+- entities/阿里巴巴.md — Qwen 系列 + 3800 亿元基础设施投入 + 首次万亿级开源承诺
+- entities/美团.md — 外卖巨头转型 AI，LongCat 系列 + 国产芯片叙事
+- entities/Thinking-Machines.md — Mira Murati 实验室，$20 亿种子轮，Inkling 抗审查定位
+
+### 更新 Wiki 页面（4 个）
+
+- concepts/美国AI监管2026.md — 新增「自愿安全测试框架定稿」+「欧盟第 50 条对照」两节
+- concepts/AI内容治理2026.md — 新增「监管侧：欧盟强制透明度」节（平台自律 → 法律强制双轨）
+- concepts/AI算力供应链2026.md — 新增「国产 ASIC 万亿参数证明」节（Nvidia 主导地位首次面临结构性威胁）
+- entities/DeepSeek.md — 新增「中国开源阵营竞争加剧」节 + 关联页面补充
+
+### 导航更新
+
+- 更新 index.md（总页数：36 → 43）
+
 ## [2026-08-03] ingest | 沙盒逃逸系列 + Earth AI 撤回 + Gemini Robotics + DeepSeek V4 Flash + RAMaggedon
 
 - 搜索方向：arXiv（cat:cs.AI/CL/LG × 3，7/30 批次）+ web_search（AI Digest 8/1 + TechCrunch/VentureBeat 7/31 新闻）
