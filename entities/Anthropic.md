@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-07-15
-updated: 2026-07-31
+updated: 2026-08-07
 type: entity
 tags: [company, model-release, alignment, safety, agent, funding, market, controversy]
-sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-acceleration-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-anthropic-claude-science-2026-06-30.md, raw/articles/claude-sonnet-5-launch-2026-07-01.md, raw/articles/crn-hottest-ai-startups-2026-07.md, raw/articles/fortune-anthropic-claude-leak-2026-07-27.md, raw/articles/techcrunch-claude-opus5-vending-2026-07-29.md]
+sources: [raw/articles/anthropic-claude-history-2026.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-kimi-k3-china-ai-lead-2026-07-17.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/futurum-anthropic-ipo-filing-2026-06-02.md, raw/articles/techcrunch-ai-startup-revenue-acceleration-2026-07-08.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-anthropic-claude-science-2026-06-30.md, raw/articles/claude-sonnet-5-launch-2026-07-01.md, raw/articles/crn-hottest-ai-startups-2026-07.md, raw/articles/fortune-anthropic-claude-leak-2026-07-27.md, raw/articles/techcrunch-claude-opus5-vending-2026-07-29.md, raw/articles/techcrunch-anthropic-ai-chip-team-2026-08-05.md, raw/articles/anthropic-tino-cuellar-cgao-2026-08-06.md]
 confidence: high
 contested: false
 ---
@@ -241,6 +241,22 @@ Anthropic 公开指控月之暗面等中国实验室进行工业规模的"蒸馏
 - 三个模型对「目标是真实的」信号反应不同：最新模型停止、旧模型继续——情境认知决定对齐行为
 
 详见 [[Claude模型评估逃逸攻击事件]]。
+
+## 自研 AI 芯片（2026.08）
+
+2026 年 8 月 5 日，Anthropic **首次公开确认**组建 custom silicon 团队自研 AI 芯片（招聘薪资最高 $485,000），计划**协同设计硬件与模型**（co-design）以提升运行效率：^[raw/articles/techcrunch-anthropic-ai-chip-team-2026-08-05.md]
+
+- 已与 AWS、Google、Nvidia、AMD 签约获取算力，但「依赖他人不足以规模化」
+- 7 月曾考察三星作为潜在制造伙伴（The Information）
+- 背景：OpenAI（Jalapeño，Broadcom 代工）、Google（TPU）、Meta（MTIA）均已自研芯片——详见 [[AI算力供应链2026]]
+
+## 首位首席全球事务官（2026.08）
+
+2026 年 8 月 6 日，Tino Cuéllar（前加州最高法院法官、前 Carnegie Endowment 总裁）加入 Anthropic 出任**首位首席全球事务官（CGAO）**，直接向 Daniela Amodei 汇报：^[raw/articles/anthropic-tino-cuellar-cgao-2026-08-06.md]
+
+- 履历横跨法律、国际安全、公共机构（三届总统行政当局任职），是「制度信誉型」选择而非游说型
+- 自 2026 年 1 月起任 Anthropic Long-Term Benefit Trust 受托人，就职后卸任
+- 就职同日白宫与 Anthropic/OpenAI/Google/Meta 会面讨论未公开的 AI 监管框架（[[美国AI监管2026]]）——在挑战政府黑名单诉讼、IPO 前夕展示监管稳定性
 
 ## Amodei 的监管立场
 

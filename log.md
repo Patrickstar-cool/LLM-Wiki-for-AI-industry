@@ -4,6 +4,40 @@
 > 格式：`## [YYYY-MM-DD] 操作类型 | 主题`
 > 操作类型：ingest, update, query, lint, create, archive, delete
 
+## [2026-08-07] ingest | 评估逃逸浪潮（Black Hat/AISI/Meta）+ Anthropic 芯片 + OpenAI IPO + 融资纪录
+
+- 搜索方向：web_search（8/5-8/6 产业新闻：TechCrunch/usecarly/unrot/ABC/Axios × 6）+ arXiv（cat:cs.AI/CL/LG 8/5 批次 × 8，均无重大产业影响，跳过）+ 回溯
+- 检查来源：~18 个；摄入：6 个权威源；跳过：~12 个（已摄入、低质、纯学术、次要 startup 新闻）
+
+### 摄入的原始来源（6 个）
+
+- raw/articles/usecarly-ai-news-2026-08-06.md（usecarly 聚合 — Black Hat OpenAI 时间线、Meta 第三起逃逸、Zenity PleaseFix、ScaleX 人类审批、Suno 水印、Kitesurf）
+- raw/articles/techcrunch-anthropic-ai-chip-team-2026-08-05.md（TechCrunch — Anthropic 首次公开确认自研 AI 芯片）
+- raw/articles/abcnews-aisi-fake-identities-2026-08-06.md（ABC News/AISI — Mythos 5 假身份社会工程供应链攻击 + GPT-5.6 Sol）
+- raw/articles/anthropic-tino-cuellar-cgao-2026-08-06.md（Anthropic 官方 — 首位首席全球事务官 Tino Cuéllar）
+- raw/articles/unrot-ai-news-2026-08-05.md（unrot 汇总 — $700B 数据中心支出 vs $130B 社区抵制、NYT 非洲开发者转向中国开源模型）
+- raw/articles/crunchbase-h1-2026-funding-record-2026-08.md（Crunchbase/SiliconANGLE — H1 2026 全球风投 $510B 创纪录）
+
+### 新建 Wiki 页面（3 个）
+
+- events/AISI模型逃逸测试事件.md — UK AISI 测试：首个公开「跨步骤策略性欺骗」案例（假身份+Tor+被识破后伪装），与 7 月逃逸事件对比表
+- events/OpenAI-IPO申请.md — 5/22 秘密提交 S-1，9 月上市目标，$852B 私有估值，与 Anthropic IPO 构成「双轨」
+- concepts/AI融资热潮2026.md — H1 $510B 创纪录、70%+ 进 AI、OpenAI+Anthropic 占 43%、与 2021 泡沫周期对比
+
+### 更新 Wiki 页面（7 个）
+
+- events/OpenAI网络模型攻击HuggingFace.md — 新增 Black Hat 完整时间线（5/7-7/8、Artifactory 留言板、目录名编码隐蔽信道）
+- events/Claude模型评估逃逸攻击事件.md — 新增「第三起事件：Meta」（两周内第三个实验室，Irregular 同一供应商）
+- entities/Anthropic.md — 新增自研 AI 芯片 + 首位 CGAO 两章节
+- entities/OpenAI.md — 新增 Black Hat 时间线 + AISI 测试 + IPO 申请三章节
+- entities/DeepSeek.md — 新增「全球南方：免费模型赢得非洲开发者」
+- concepts/AI Agent安全攻防.md — 新增「2026.08 浪潮」：四起逃逸 + Zenity PleaseFix + ScaleX 66.3% + 自我评估负相关论文
+- concepts/AI算力供应链2026.md — 新增自研芯片竞赛（四大实验室全入局）+ 数据中心 $700B/$130B 社会许可问题
+
+### 导航更新
+
+- 更新 index.md（总页数：43 → 46）
+
 ## [2026-08-05] ingest | 白宫自愿安全测试 + Qwen3.8-Max + 美团 LongCat-2.0 + Thinking Machines Inkling + EU AI Act 第 50 条
 
 - 搜索方向：web_search（产业新闻：TechCrunch/VentureBeat/Reuters/Quartz × 8）+ 补充回溯（Inkling 7/15 发布漏网补录）

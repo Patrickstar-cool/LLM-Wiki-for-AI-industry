@@ -1,10 +1,10 @@
 ---
 title: DeepSeek
 created: 2026-07-15
-updated: 2026-08-05
+updated: 2026-08-07
 type: entity
 tags: [company, model-release, open-source, china, benchmark]
-sources: []
+sources: [raw/articles/unrot-ai-news-2026-08-05.md]
 confidence: high
 contested: false
 ---
@@ -76,6 +76,14 @@ Kimi K3 在多维度基准上追平甚至超越 [[OpenAI]] 和 [[Anthropic]] 的
 - 周末（8/1-8/2）DeepSeek 扩大最新模型访问范围（Straitstimes 报道）
 - 8/3 [[阿里巴巴]] 发布 Qwen3.8-Max（2.4T，下周开源权重）；[[美团]] 公开 LongCat-2.0（1.6T，纯国产芯片训练，SWE-bench Pro 59.5 超 GPT-5.5）
 - 竞争焦点从「单点性价比」转向「规模 + 芯片自主 + Agent 编码能力」多线并进
+
+### 全球南方：免费模型赢得非洲开发者（2026.08）
+
+NYT 报道非洲开发者越来越多选择中国开源模型而非美国 API 模型：^[raw/articles/unrot-ai-news-2026-08-05.md]
+
+- 原因三要素：**成本**（免费下载 vs 按次收费）、**控制**（可自由修改）、**访问**（可本地运行保隐私）
+- 中国模型质量已「接近够用」——「免费且够好」在大部分世界胜过「昂贵且卓越」
+- 战略含义：开发者生态的忠诚度一旦建立难以夺回，中国在印度/非洲/东南亚等增长市场正建立结构性影响力
 
 ## 关联页面
 
