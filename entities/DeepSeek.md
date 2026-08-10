@@ -1,10 +1,10 @@
 ---
 title: DeepSeek
 created: 2026-07-15
-updated: 2026-08-07
+updated: 2026-08-10
 type: entity
 tags: [company, model-release, open-source, china, benchmark]
-sources: [raw/articles/unrot-ai-news-2026-08-05.md]
+sources: [raw/articles/unrot-ai-news-2026-08-05.md, raw/articles/sina-ai-news-2026-08-10.md]
 confidence: high
 contested: false
 ---
@@ -84,6 +84,13 @@ NYT 报道非洲开发者越来越多选择中国开源模型而非美国 API �
 - 原因三要素：**成本**（免费下载 vs 按次收费）、**控制**（可自由修改）、**访问**（可本地运行保隐私）
 - 中国模型质量已「接近够用」——「免费且够好」在大部分世界胜过「昂贵且卓越」
 - 战略含义：开发者生态的忠诚度一旦建立难以夺回，中国在印度/非洲/东南亚等增长市场正建立结构性影响力
+
+## 逆势提价：API 定价上调计划（2026.08.06）
+
+DeepSeek 于 8 月 6 日公告**计划近期整体上调 API 服务定价，预计涨幅较大**（具体方案待正式通知）；此前已引入峰谷定价（高峰时段 2 倍）。^[raw/articles/sina-ai-news-2026-08-10.md]
+
+- 在全球 AI 价格战（[[GPT-5.6价格大幅下调]]）背景下逆势涨价，显示其用户规模与需求弹性已足以支撑——「极致性价比」策略进入第二阶段：先以低价抢份额，再以规模调价格
+- 中信建投研报视角：大模型竞争正从单纯能力比拼向 Agent 及商业化应用延伸，API 定价成为商业模式成熟度信号
 
 ## 关联页面
 

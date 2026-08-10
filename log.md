@@ -306,3 +306,45 @@
 ### 导航更新
 
 - 更新 index.md（总页数：21 → 25）
+
+## [2026-08-10] ingest | Astra 暂停 + GPT-5.6 免费化/数学突破 + DeepMind 改组 + MiniMax H3 开源 + 中国开源影响力
+
+- 搜索方向：web_search（8/8-8/10 产业新闻：AI ToolsRecap/PromptAI Learning/TechCrunch/VentureBeat × 4 + 中文源：人民网/新浪/每经/量子位 × 4）
+- 检查来源：~20 个；摄入：8 个权威源；跳过：~12 个（已摄入、低质、纯学术、付费墙）
+
+### 摄入的原始来源（8 个）
+
+- raw/articles/openai-astra-cyber-pause-2026-08-08.md（AI ToolsRecap/OpenAI 博客 — Astra 首个触发关键网络风险阈值）
+- raw/articles/promptailearning-ai-news-2026-08-08.md（8/8 日报 — 两次第三方评估越界披露 + GPT-5.6 免费化 + 甜甜圈音箱）
+- raw/articles/promptailearning-ai-news-2026-08-09.md（8/9 日报 — AISI 19 起未授权行动完整数据 + DeepMind 改组 + OpenAI-Apple 诉讼）
+- raw/articles/qbitai-gpt56-fable-math-2026-08-09.md（量子位 — GPT-5.6+Fable 破 25 年数学难题 + Opus 5 成本对比 + NextSlide 收购）
+- raw/articles/people-minimax-h3-2026-08-10.md（人民网 — MiniMax H3 开源登顶 HF + 中国开源数据全景）
+- raw/articles/nbd-l3-agent-era-2026-08-09.md（每经 — L3 智能体时代 + 中国 Agent 部署数据）
+- raw/articles/sina-ai-news-2026-08-10.md（新浪 — DeepSeek 拟提价 + 硅谷 200 家初创联名信）
+- raw/articles/techcrunch-anthropic-volta-2026-08-04.md（TechCrunch — Anthropic $100 亿 Volta 算力协议）
+
+### 新建 Wiki 页面（7 个）
+
+- events/OpenAI暂停Astra.md — 史上首个「无法排除关键网络能力（Critical）」模型，Preparedness Framework 首次真正拦住模型
+- events/GoogleDeepMind领导层改组.md — Hassabis 转董事长、Kavukcuoglu 接任 SVP（半自治收编）、Jeff Dean 离职创 Discovery Loop
+- events/MiniMax-H3开源.md — 视频生成开源三天登顶 HuggingFace，Design Arena 三类别夺冠，Emad Mostaque 致敬
+- events/GPT-5.6破解25年数学难题.md — 多模型协作新范式 + 成本效率战（6.9 亿 token vs $5）
+- entities/Google-DeepMind.md — 实验室实体页（此前缺失，多事件无宿主）
+- entities/MiniMax.md — H3 开源主体，客户超百万（半年 5 倍）
+- concepts/中国开源模型全球影响2026.md — 下载量 41% 居首、调用榜前六全中国团队、硅谷 200 家初创联名信
+
+### 更新 Wiki 页面（9 个）
+
+- events/GPT-5.6价格大幅下调.md — 免费化推进（10 亿用户默认模型）+ 成本效率胜负手 + DeepSeek 逆势提价反例
+- events/AISI模型逃逸测试事件.md — 完整数据（122 次运行/7 模型/19 动作）+ METR 独立审查 + 与 HF 事件本质区别
+- concepts/AI Agent安全攻防.md — OpenAI 8/4 两次第三方评估越界披露 + Astra 关键阈值 + 共享测试标准倡议
+- concepts/AI算力供应链2026.md — 亚马逊得州数据中心污染争议 + AMD 收购 Taalas + Volta 算力资产化
+- concepts/AI Agent时代.md — L3 智能体时代（AGI 路线图、57.3%/10% 部署数据、场景结构、Token 千倍增长）
+- entities/OpenAI.md — Astra 暂停、越界披露、免费化、NextSlide 收购、甜甜圈音箱、Apple 诉讼
+- entities/Anthropic.md — Volta $100 亿算力协议
+- entities/DeepSeek.md — 逆势提价计划（8/6 公告）
+- index.md（总页数：46 → 53）
+
+### 导航更新
+
+- 更新 index.md（总页数：46 → 53）

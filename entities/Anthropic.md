@@ -28,7 +28,7 @@ Anthropic 是全球估值最高的私营 AI 公司（2026 年 5 月估值 9650 �
 - **年化收入**：470 亿美元运行率（2026 年 5 月，已超越 OpenAI）
 - **IPO**：2026 年 6 月已秘密提交 S-1，目标 10 月上市
 - **战略收购**：Stainless（2026.05）、Coefficient Bio（2026.04）、Vecept（2026.02）、Bun（2025.12）
-- **计算扩容**：与 AWS、Broadcom、Google、SpaceX 签订计算协议
+- **计算扩容**：与 AWS、Broadcom、Google、SpaceX 签订计算协议；2026.08.04 再签 **$100 亿/六年 Volta 算力协议**（挪威 133MW 数据中心，英伟达 Vera Rubin）^[raw/articles/techcrunch-anthropic-volta-2026-08-04.md]
 
 ## 起源：OpenAI 出走潮
 

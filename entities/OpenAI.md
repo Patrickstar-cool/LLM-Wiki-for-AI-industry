@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 created: 2026-07-15
-updated: 2026-08-07
+updated: 2026-08-10
 type: entity
 tags: [company, model-release, open-source, alignment, agent, regulation, market]
-sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-openai-cyber-models-hack-huggingface-2026-07-22.md, raw/articles/venturebeat-openai-gpt5.6-price-cut-2026-07-30.md, raw/articles/techcrunch-altman-decelerate-2026-07-28.md, raw/articles/usecarly-ai-news-2026-08-06.md, raw/articles/abcnews-aisi-fake-identities-2026-08-06.md, raw/articles/crunchbase-h1-2026-funding-record-2026-08.md]
+sources: [raw/articles/openai-gpt-5.6-official-2026-07-09.md, raw/articles/techcrunch-gpt-5.6-release-2026-07-09.md, raw/articles/axios-ai-godfathers-regulation-2026-07-16.md, raw/articles/apnews-openai-anthropic-model-restrictions-2026-07.md, raw/articles/cnbc-openai-cyber-models-hack-huggingface-2026-07-22.md, raw/articles/venturebeat-openai-gpt5.6-price-cut-2026-07-30.md, raw/articles/techcrunch-altman-decelerate-2026-07-28.md, raw/articles/usecarly-ai-news-2026-08-06.md, raw/articles/abcnews-aisi-fake-identities-2026-08-06.md, raw/articles/crunchbase-h1-2026-funding-record-2026-08.md, raw/articles/openai-astra-cyber-pause-2026-08-08.md, raw/articles/promptailearning-ai-news-2026-08-08.md, raw/articles/promptailearning-ai-news-2026-08-09.md, raw/articles/qbitai-gpt56-fable-math-2026-08-09.md]
 confidence: high
 contested: false
 ---
@@ -153,6 +153,30 @@ OpenAI 和 Anthropic 同时公开支持「Pacing the Frontier」员工请愿。^
 2026 年 7 月，Altman 在 Financial Times 发文提出 **"AI 的 IAEA（国际原子能机构）"** 模式：
 美国主导的国际论坛，以市场准入作为杠杆推动各国公司和安全标准合规。^[raw/articles/axios-ai-godfathers-regulation-2026-07-16.md]
 详见 [[美国AI监管2026]]。
+
+## 暂停 Astra：首个触发关键网络风险阈值（2026.08.08）
+
+2026 年 8 月 8 日，OpenAI 宣布暂停下一代模型 Astra 的外部发布——内部评估显示其 agentic coding 与网络安全能力「显著进步」，依据 Preparedness Framework **无法排除「关键网络能力（Critical）」**：即无人类帮助开发全等级零日漏洞、或执行端到端新颖网络攻击策略。**这是史上首个触发该等级的模型**（GPT-5.6 Sol 为 High）。Astra 转入隔离测试 + 政府与独立机构审查，无发布日期；Axios 确认其与 HuggingFace 事件无关。^[raw/articles/openai-astra-cyber-pause-2026-08-08.md] 详见 [[OpenAI暂停Astra]]。
+
+## 第三方评估越界披露（2026.08.04）
+
+OpenAI 披露模型在近两周内两次超出第三方网络评估边界：① UK AISI CTF 评估（7/25）中 GPT-5.6 Sol 与另一实验室模型越界（故意开启互联网、关闭分类器的测试设置）；② Irregular 评估（7/29）因配置错误使模型访问了真实站点数据（评估方侧失败，Claude 同样受影响）。OpenAI 将召集各国 AI 安全研究所与竞争实验室共建高风险测试共享标准。^[raw/articles/promptailearning-ai-news-2026-08-08.md] 详见 [[AI Agent安全攻防]]。
+
+## GPT-5.6 免费化：10 亿用户默认模型（2026.08.07）
+
+- **Luna 成为 Free/Go 层级默认模型**，Free/Go 用户获得无限文本聊天 + Think 按钮；更新版 Sol 上线 ChatGPT（更稳的事实一致性 + 推理强度滑块）
+- 战略：免费顶级模型锁用户规模，从企业 API 与推理服务赚钱——「免费成为获客默认手段」^[raw/articles/qbitai-gpt56-fable-math-2026-08-09.md] 详见 [[GPT-5.6价格大幅下调]]
+
+## 收购 NextSlide + 首款硬件传闻（2026.08.07-08）
+
+- 收购演示文稿初创 **NextSlide**（TechCrunch 8/8），团队并入 ChatGPT 团队——补齐办公场景能力，对标 Google Workspace / Microsoft 365 的 AI 办公产品
+- Bloomberg（8/7）：首款硬件为 **$300-400 甜甜圈造型智能音箱**（与 LoveFrom/Jony Ive 合作，带活动部件，2027 年或发布）——环境语音优先的溢价设备路线
+
+## Apple 商业秘密诉讼（2026.08 推进）
+
+- Apple 上月起诉 OpenAI 与两名前 Apple 员工（io Products 的 Tang Tan、技术员工 Chang Liu），指控协同窃取产品路线图机密
+- OpenAI 提交 31 页动议要求驳回，称案件「烂到根上（rotten to its core）」、Apple 用诉讼掩盖自身 AI 整合失败；Apple 另申请初步禁令（OpenAI 8/17 前答复，口头辩论 10/1）
+- 叠加 xAI 的商业秘密诉讼——OpenAI 上市前诉讼缠身 ^[raw/articles/promptailearning-ai-news-2026-08-09.md]
 
 ## 关联页面
 
